@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  background-color: #FFFCF5;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero-heading {
+  font-family: "Figtree", sans-serif;
+  font-weight: 900;
+  font-stretch: condensed;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

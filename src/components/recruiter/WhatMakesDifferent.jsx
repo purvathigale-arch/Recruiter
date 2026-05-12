@@ -1,0 +1,224 @@
+import { useState } from "react";
+import Container from "../common/Container";
+
+import differentImage from "../../assets/tab1.svg";
+import pana from "../../assets/pana.svg";
+import pana2 from "../../assets/pana2.svg";
+
+export default function WhatMakesDifferent() {
+
+  const tabs = [
+  {
+    label: "Predictive Hiring Analytics",
+
+    image: differentImage,
+
+    title: "Predictive Hiring Analytics",
+
+    description:
+      "A bad hire costs you 6–9 months of salary and months of momentum. Zepcruit's predictive hiring analytics engine goes beyond resumes and gut feel — scoring every candidate on role alignment and performance likelihood through our pre-employment assessment stack, so your talent acquisition decisions are grounded in intelligence, not intuition.",
+
+    italic: "Hire With Confidence. Not Hope.",
+  },
+
+  {
+    label: "Tailored Evaluation Stack",
+
+    image: pana,
+
+    title: "AI-Powered Interviews with a Tailored Evaluation Stack",
+
+    description:
+      "Every role is different. So every interview should be too. Zepcruit's AI-powered interviews are built around structured, company specific – culture specific – role-specific evaluation flows; complete with real-time anti-cheat proctoring and psychometric-based candidate assessment — so you measure what actually predicts performance, not just what candidates rehearsed.",
+
+    italic: "Hire With Confidence. Not Hope.",
+  },
+
+  {
+    label: "Unified Intelligent Platform",
+
+    image: pana2,
+
+    title: "A Complete Hiring Intelligence Platform — Not Five Tools Stitched Together",
+
+    description:
+      "Most organisations run their hiring across multiple disconnected platforms — one for sourcing, one for screening, one for interviews, one for assessments. Each handoff loses data, context, and time. Zepcruit takes you from sourcing to offer letter in one seamless flow. Every signal stays connected. Every decision is informed by the full picture.",
+
+    italic: "Hire With Confidence. Not Hope.",
+  },
+];
+
+  const [activeTab, setActiveTab] = useState(0);
+
+  return (
+    <section className="bg-[#FFFFFF] py-24 overflow-hidden">
+
+      <Container>
+
+        {/* HEADING */}
+        <div className="max-w-[1180px] mx-auto text-center">
+
+          <h2
+            className="text-[48px] leading-[1.05] tracking-[-2.5px] font-[950]"
+            style={{
+              fontFamily: "Figtree, sans-serif",
+            }}
+          >
+
+            <span className="text-[#111111]">
+              What Makes Zepcruit
+            </span>{" "}
+
+            <span className="text-[#FF5A0A]">
+              Different
+            </span>{" "}
+
+            <span className="text-[#111111]">
+              from Every Other AI Recruitment Software
+            </span>
+
+          </h2>
+
+          {/* SUBTEXT */}
+          <p
+            className="mt-4 text-[22px] text-[#8A8A8A] font-medium"
+            style={{
+              fontFamily: "Figtree, sans-serif",
+            }}
+          >
+            From sourcing to final shortlists. One platform. No switching between tools.
+          </p>
+
+        </div>
+
+        {/* MAIN GRID */}
+        <div className="grid grid-cols-[0.82fr_1.18fr] gap-12 mt-16 max-w-[1180px] mx-auto items-start">
+
+          {/* LEFT IMAGE */}
+          <div className="flex justify-center">
+
+            <img
+  src={tabs[activeTab].image}
+  alt="Analytics illustration"
+  className="
+    w-[469px]
+    h-[454px]
+    object-contain
+    transition-all
+    duration-500
+  "
+/>
+
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div>
+
+            {/* TABS */}
+            <div className="bg-[#E7DFC6] rounded-[12px] p-2 flex items-center gap-2 ">
+
+              {tabs.map((tab, index) => (
+
+                <button
+  key={index}
+  onClick={() => setActiveTab(index)}
+  className={`
+    flex-1
+    min-w-[210px]
+    h-[42px]
+    rounded-[9px]
+    text-[16px]
+    font-[500]
+    flex
+    items-center
+    justify-center
+    text-center
+    whitespace-nowrap
+    transition-all
+    duration-300
+    ${
+      activeTab === index
+        ? "bg-[#FF5A0A] text-white shadow-[0_4px_10px_rgba(255,90,10,0.25)]"
+        : "text-[#6D6D6D] hover:bg-[#EFE7D1]"
+    }
+  `}
+  style={{
+    fontFamily: "Figtree, sans-serif",
+  }}
+>
+  {tab.label}
+</button>
+
+              ))}
+
+            </div>
+
+            {/* CONTENT CARD */}
+<div className="mt-5">
+
+  {/* BOX */}
+  <div className="bg-[#F8F5EA] border border-[#D9CFB5] rounded-[16px] px-8 py-8 transition-all duration-300 overflow-hidden">
+
+    {/* TITLE */}
+    <h3
+      className="text-[30px] leading-[1.05] font-[950] text-[#FF5A0A] tracking-[-1.3px] max-w-[520px]"
+      style={{
+        fontFamily: "Figtree, sans-serif",
+      }}
+    >
+      {tabs[activeTab].title}
+    </h3>
+
+    {/* DESCRIPTION */}
+    <p
+      className="mt-5 text-[16px] leading-[28px] text-[#5F5F5F] font-medium max-w-[560px]"
+      style={{
+        fontFamily: "Figtree, sans-serif",
+      }}
+    >
+      {tabs[activeTab].description}
+    </p>
+
+  </div>
+
+  {/* ITALIC TEXT */}
+  <p
+    className="mt-7 text-[26px] italic leading-[1.2 text-[#333333] font-semibold tracking-[-0.8px]"
+    style={{
+      fontFamily: "Figtree, sans-serif",
+    }}
+  >
+    {tabs[activeTab].italic}
+  </p>
+
+  {/* BUTTON */}
+  <div className="mt-7">
+
+    <button
+      className="bg-[#FF5A0A] hover:bg-[#EB5200] transition-all duration-300 text-white px-6 py-3 rounded-full text-[16px] font-bold tracking-[0.3px] shadow-[0_6px_16px_rgba(255,90,10,0.35)] inline-flex items-center gap-2"
+      style={{
+        fontFamily: "Figtree, sans-serif",
+      }}
+      onClick={() => window.open("https://zepcruit.zohobookings.in/#/300603000000133050", "_blank")}
+    >
+      BOOK A DEMO
+
+      <span className="text-[14px]">
+        <i className="fa-solid fa-arrow-right ml-2"></i>
+      </span>
+
+    </button>
+
+  </div>
+
+</div>
+
+          </div>
+
+        </div>
+
+      </Container>
+
+    </section>
+  );
+}
