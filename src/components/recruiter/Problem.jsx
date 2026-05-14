@@ -287,7 +287,7 @@ export default function Problem() {
             <div className="mt-6">
 
               <button className="bg-[#FF5A0A] hover:bg-[#eb4f00] transition-all duration-300 text-white font-bold text-[16px] px-6 py-3 rounded-full tracking-[0.3px]">
-                CALCULATE YOUR HIRING COST
+                CHECK HOW MUCH YOU ARE LOSING
               </button>
 
               <p className="text-[18px] text-[#8B8B8B] italic mt-3">

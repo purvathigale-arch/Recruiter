@@ -1,6 +1,5 @@
 // FILE NAME: src/components/recruiter/PayOnlySection.jsx
 
-import React from "react";
 
 /* TOP ROW ICONS */
 import cvUnlockIcon from "../../assets/Slice 1.png";
@@ -19,7 +18,7 @@ export default function PayOnlySection() {
   const topCards = [
     {
       title: "CV Unlock -\nAll Candidate",
-      price: "50",
+      price: "30/~",
       icon: cvUnlockIcon,
 
       description:
@@ -28,7 +27,7 @@ export default function PayOnlySection() {
 
     {
       title: "CV Unlock All +\nCV Rating",
-      price: "1500",
+      price: "35/~",
       icon: cvUnlockAllIcon,
 
       description:
@@ -46,7 +45,7 @@ export default function PayOnlySection() {
 
     {
       title: "AI Interview +\nBasic Report",
-      price: "500",
+      price: "400",
       icon: aiInterviewIcon,
 
       description:
@@ -57,7 +56,7 @@ export default function PayOnlySection() {
   const bottomCards = [
     {
       title: "Predictive\nAnalysis",
-      price: "500",
+      price: "400",
       icon: predictiveIcon,
 
       description:
@@ -66,7 +65,7 @@ export default function PayOnlySection() {
 
     {
       title: "Anti-Cheat\nProctoring",
-      price: "500",
+      price: "400",
       icon: antiCheatIcon,
 
       description:
@@ -75,7 +74,7 @@ export default function PayOnlySection() {
 
     {
       title: "Behavioural\nSignal Analysis",
-      price: "500",
+      price: "200",
       icon: behaviouralIcon,
 
       description:
@@ -164,7 +163,7 @@ export default function PayOnlySection() {
 <div
   className="
     absolute
-    left-0
+    left-[-20px]
     top-[85px]
     bg-white
     rounded-[10px]
@@ -184,7 +183,7 @@ export default function PayOnlySection() {
   <div className="absolute left-0 top-0 h-full w-[13px] bg-[#FF580E]" />
 
   <p
-    className="text-[28px] font-black leading-none text-[#631FEE] ml-2"
+    className="text-[33px] font-black leading-none text-[#FF580E] ml-2"
     style={{
       fontFamily: "Figtree, sans-serif",
     }}
@@ -195,15 +194,15 @@ export default function PayOnlySection() {
   {/* SMALL SVG */}
 
   <svg
-    width="20"
-    height="22"
+    width="23"
+    height="24"
     viewBox="0 0 20 21"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
       d="M3.45277 0L2.57999 4.84407H10.8537L4.61639 10.4996H7.53349L0.792295 16.6101L0.775661 16.6255L0 21H16.3487L17.2212 16.1548H9.18048L15.386 10.4996H12.4689L19.2137 4.35147L19.2243 4.34275L20 0H3.45277Z"
-      fill="#631FEE"
+      fill="#FF580E"
     />
   </svg>
 

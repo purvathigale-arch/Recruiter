@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 /* SVGs */
 import faqQuestionSvg from "../../assets/faq-1.svg";

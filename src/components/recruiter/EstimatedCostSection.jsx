@@ -1,6 +1,5 @@
 // FILE NAME: src/components/recruiters/EstimatedCostSection.jsx
 
-import React from "react";
 
 /* OPTIONAL SHAPE */
 import orangeShape from "../../assets/Pattern.svg";
