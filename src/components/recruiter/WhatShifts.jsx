@@ -164,7 +164,7 @@ export default function WhatShifts() {
           <h2
             className="
               text-[48px]
-              font-black
+              font-[700]
               tracking-[-2px]
               leading-[1.05]
             "
@@ -243,7 +243,7 @@ export default function WhatShifts() {
               shadow-lg
               transition-all
               duration-300
-              border-4
+              border-2
               border-[#FFFCF5]
 
               ${
@@ -253,7 +253,7 @@ export default function WhatShifts() {
               }
             `}
           >
-            <i className="fa-solid fa-arrow-left"></i>
+            <i className="fa-solid fa-chevron-left"></i>
           </button>
 
           {/* RIGHT ARROW */}
@@ -275,7 +275,7 @@ export default function WhatShifts() {
               shadow-lg
               transition-all
               duration-300
-              border-4
+              border-2
               border-[#FFFCF5]
 
               ${
@@ -285,7 +285,7 @@ export default function WhatShifts() {
               }
             `}
           >
-            <i className="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-chevron-right"></i>
           </button>
 
           {/* BOX */}
@@ -297,7 +297,7 @@ export default function WhatShifts() {
               border-[#8D8D8D]
               rounded-[28px]
               px-8
-              py-10
+              py-14
               bg-[#FFFCF5]
               overflow-hidden
             "
@@ -317,16 +317,21 @@ export default function WhatShifts() {
             >
 
               <div
-                ref={sliderRef}
-                className="
-                  flex
-                  gap-5
-                  overflow-x-auto
-                  scroll-smooth
-                  scrollbar-hide
-                  pr-[20px]
-                "
-              >
+  ref={sliderRef}
+  className="
+    flex
+    gap-5
+    overflow-x-auto
+    scroll-smooth
+    pr-[20px]
+    pt-[10px]
+
+    [-ms-overflow-style:none]
+    [scrollbar-width:none]
+
+    [&::-webkit-scrollbar]:hidden
+  "
+>
 
                 {cards.map((card, index) => (
 
@@ -381,7 +386,8 @@ export default function WhatShifts() {
                           text-[22px]
                           font-black
                           leading-[1.15]
-                          min-h-[120px]
+                          min-h-[140px]
+                      translate-y-[25px]
                         "
                         style={{
                           fontFamily: "Figtree, sans-serif",
@@ -396,7 +402,8 @@ export default function WhatShifts() {
                           w-full
                           h-[1px]
                           bg-[#D9D9D9]
-                          my-5
+                         
+                          mb-5
                         "
                       />
 

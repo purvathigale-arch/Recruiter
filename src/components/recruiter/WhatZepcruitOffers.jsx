@@ -80,7 +80,7 @@ export default function WhatZepcruitOffers() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="bg-[#FFFFFF] py-24">
+    <section className="bg-[#FFFFFF] py-16">
 
       <Container>
 
@@ -88,7 +88,7 @@ export default function WhatZepcruitOffers() {
         <div className="text-center">
 
           <h2
-            className="text-[48px] leading-[1.08] tracking-[-2.5px] font-black"
+            className="text-[48px] leading-[1.08] tracking-[-2px] font-[700]"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -176,7 +176,7 @@ export default function WhatZepcruitOffers() {
          <div className="bg-[#FFFCF5] border border-[#D7CFB8] h-[534px] rounded-[16px] px-10 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.04)] transition-all duration-300 text-center">
             {/* TITLE */}
             <h3
-              className="text-[38px] italic font-[950] text-[#111111] tracking-[-1px]"
+              className="text-[34px] italic font-[700] text-[#111111] tracking-[-1px]"
               style={{
                 fontFamily: "Figtree, sans-serif",
               }}
@@ -186,7 +186,7 @@ export default function WhatZepcruitOffers() {
 
             {/* PARAGRAPH */}
             <p
-              className="mt-6 text-[22px] leading-[30px] text-[#5F5F5F] font-medium max-w-[760px]"
+              className="mt-6 text-[20px] leading-[30px] text-[#5F5F5F] font-medium max-w-[760px]"
               style={{
                 fontFamily: "Figtree, sans-serif",
               }}
@@ -265,7 +265,7 @@ export default function WhatZepcruitOffers() {
       text-[16px]
       font-bold
       px-8
-      py-4
+      py-3
       rounded-full
       tracking-[0.3px]
       shadow-[0_6px_18px_rgba(255,90,10,0.25)]

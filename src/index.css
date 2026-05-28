@@ -20,11 +20,153 @@ body {
   font-stretch: condensed;
 }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
+/* =========================================
+   RESPONSIVE ADDITIONAL CSS
+   ADD THIS BELOW YOUR CURRENT CSS
+========================================= */
+
+/* Prevent horizontal scroll */
+html,
+body,
+#root {
+  width: 100%;
+  overflow-x: hidden;
 }
 
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+/* Responsive images/videos */
+img,
+video,
+picture,
+svg,
+canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive container helper */
+.container-responsive {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+/* Responsive typography */
+.hero-heading {
+  font-size: clamp(2.4rem, 6vw, 6rem);
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+/* =========================================
+   LARGE TABLETS
+========================================= */
+
+@media (max-width: 1024px) {
+
+  .container-responsive {
+    padding-inline: 24px;
+  }
+
+  .hero-heading {
+    font-size: clamp(2.2rem, 7vw, 5rem);
+  }
+}
+
+/* =========================================
+   TABLETS
+========================================= */
+
+@media (max-width: 768px) {
+
+  .container-responsive {
+    padding-inline: 18px;
+  }
+
+  .hero-heading {
+    font-size: clamp(2rem, 8vw, 4rem);
+    line-height: 1.05;
+    text-align: center;
+  }
+
+  /* Stack flex layouts */
+  .flex-responsive,
+  .hero-section,
+  .row,
+  .two-column {
+    flex-direction: column;
+  }
+
+  /* Responsive grids */
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Better spacing */
+  section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+
+/* =========================================
+   MOBILE DEVICES
+========================================= */
+
+@media (max-width: 640px) {
+
+  .container-responsive {
+    padding-inline: 16px;
+  }
+
+  .hero-heading {
+    font-size: clamp(1.8rem, 9vw, 3rem);
+    line-height: 1.08;
+    letter-spacing: -1px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  button,
+  .btn {
+    width: 100%;
+  }
+
+  /* Prevent text overflow */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    word-wrap: break-word;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE DEVICES
+========================================= */
+
+@media (max-width: 480px) {
+
+  .container-responsive {
+    padding-inline: 14px;
+  }
+
+  .hero-heading {
+    font-size: 1.8rem;
+  }
+
+  section {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
 }

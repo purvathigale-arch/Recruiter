@@ -25,9 +25,9 @@ export default function Hero() {
   className="
     max-w-[820px]
     text-[#111111]
-    font-[900]
-    tracking-[-4px]
-    leading-[0.94]
+    font-[800]
+    tracking-[-2px]
+    leading-[0.8]
   "
   style={{
     fontFamily: "Figtree, sans-serif",
@@ -35,39 +35,38 @@ export default function Hero() {
 >
 
   {/* LINE 1 */}
-  <div className="text-[66px]">
+  <div className="text-[64px]">
     <span className="text-[#FF5A0A]">
       AI Recruitment Software
     </span>
   </div>
 
   {/* LINE 2 */}
-  <div className="text-[66px] mt-[16px]">
+  <div className="text-[64px] mt-[16px]">
     That Predicts Who Will
   </div>
 
-  {/* LINE 3 */}
-  <div className="text-[66px] mt-[16px]">
-    <span className="text-[#FF5A0A]">
-      Perform
-    </span>
+{/* LINE 3 */}
+<div className="text-[64px] mt-[16px]">
+  <span className="text-[#FF5A0A]">Perform</span>
+  <span className="text-black"> - Not Just Who</span>
+</div>
 
-    <span className="text-black">
-      {" "}Not Just Who Applied
-    </span>
-  </div>
-
+{/* LINE 4 */}
+<div className="text-[64px] mt-[15px]">
+  <span className="text-black">Applied</span>
+</div>
 </h1>
 
             {/* PARAGRAPH 1 */}
-            <p className="mt-9 text-[22px] leading-[27px] text-[#6E6E6E] max-w-[690px] font-medium">
+            <p className="mt-9 text-[18px] leading-[24px] text-[#6E6E6E] max-w-[690px] font-medium">
               Every year, organisations lose thousands of hiring hours and crores in
               mis-hire costs. Not entirely from lack of effort but from lack of the
               right intelligence at the right moment.
             </p>
 
             {/* PARAGRAPH 2 */}
-            <p className="mt-5 text-[22px] leading-[27px] text-[#6E6E6E] max-w-[700px] font-medium">
+            <p className="mt-5 text-[18px] leading-[24px] text-[#6E6E6E] max-w-[700px] font-medium">
               <span className="font-extrabold text-[#444444]">
                 Zepcruit
               </span>{" "}
@@ -94,7 +93,7 @@ export default function Hero() {
         </div>
 
         {/* WHAT YOU GET */}
-        <div className="mt-14">
+        <div className="mt-8">
 
           {/* TITLE */}
           <h2 className="text-center text-[36px] font-black text-black mb-8 tracking-[-1px]">
@@ -109,7 +108,7 @@ export default function Hero() {
     className="
   bg-[#FF5A0A]
   rounded-[8px]
-  h-[216px]
+  h-[204px]
   px-[34px]
   py-[26px]
   flex
@@ -127,7 +126,7 @@ export default function Hero() {
     <p
       className="
         text-white
-        text-[22px]
+        text-[20px]
         leading-[1.18]
         font-[500]
         text-center
@@ -149,7 +148,7 @@ export default function Hero() {
     className="
   bg-[#FF5A0A]
   rounded-[8px]
-  h-[216px]
+  h-[204px]
   px-[34px]
   py-[26px]
   flex
@@ -167,7 +166,7 @@ export default function Hero() {
     <p
       className="
         text-white
-        text-[22px]
+        text-[20px]
         leading-[1.18]
         font-[500]
         text-center
@@ -189,9 +188,9 @@ export default function Hero() {
     className="
       bg-[#FF5A0A]
       rounded-[8px]
-      h-[216px]
-      px-[34px]
-      py-[26px]
+      h-[204px]
+      px-[30px]
+      py-[24px]
       flex
       items-center
       justify-center
@@ -207,7 +206,7 @@ export default function Hero() {
     <p
       className="
         text-white
-        text-[22px]
+        text-[20px]
         leading-[1.18]
         font-[500]
         text-center
@@ -253,7 +252,7 @@ export default function Hero() {
   BOOK A DEMO
 </button>
 
-            <p className="mt-3 text-[20px] text-[#7A7A7A] italic font-medium">
+            <p className="mt-3 text-[18px] text-[#7A7A7A] italic font-medium">
               No commitment. 30 minutes. Walk away with a sample candidate report.
             </p>
 

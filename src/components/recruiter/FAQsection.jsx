@@ -87,7 +87,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <section className="w-full bg-[#FFFFFF] py-[110px] overflow-hidden">
+    <section className="w-full bg-[#FFFFFF] py-[40px] overflow-hidden">
       <div className="max-w-[1180px] mx-auto px-4">
 
         {/* MAIN BOX */}
@@ -110,7 +110,7 @@ export default function FAQSection() {
             className="
               absolute
               right-[-60px]
-              top-[70px]
+              top-[160px]
               w-[339px]
               h-[424px]
               object-contain
@@ -128,7 +128,7 @@ export default function FAQSection() {
   className={`
     absolute
     right-[-60px]
-    bottom-[70px]
+    bottom-[100px]
     w-[350px]
     object-contain
     pointer-events-none

@@ -8,8 +8,8 @@ import WhatMakesDifferent from "../components/recruiter/WhatMakesDifferent";
 import HiringTeamsSection from "../components/recruiter/HiringTeamsSection";
 import PayOnlySection from "../components/recruiter/PayOnlySection";
 import EstimatedCostSection from "../components/recruiter/EstimatedCostSection";
-import FooterSection from "../components/recruiter/FooterSection";
 import FAQsection from "../components/recruiter/FAQsection";
+import FooterSection from "../components/recruiter/FooterSection";
 
 export default function RecruitersPage() {
   return (

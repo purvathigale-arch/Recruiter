@@ -39,7 +39,7 @@ export default function WhatMakesDifferent() {
 
     image: pana2,
 
-    title: "A Complete Hiring Intelligence Platform — Not Five Tools Stitched Together",
+    title: "A Complete Hiring Intelligence Platform - Not Five Tools Stitched Together",
 
     description:
       "Most organisations run their hiring across multiple disconnected platforms — one for sourcing, one for screening, one for interviews, one for assessments. Each handoff loses data, context, and time. Zepcruit takes you from sourcing to offer letter in one seamless flow. Every signal stays connected. Every decision is informed by the full picture.",
@@ -51,7 +51,7 @@ export default function WhatMakesDifferent() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="bg-[#FFFFFF] py-24 overflow-hidden">
+    <section className="bg-[#FFFFFF] py-12 overflow-hidden">
 
       <Container>
 
@@ -59,7 +59,7 @@ export default function WhatMakesDifferent() {
         <div className="max-w-[1180px] mx-auto text-center">
 
           <h2
-            className="text-[48px] leading-[1.05] tracking-[-2.5px] font-[950]"
+            className="text-[48px] leading-[1.05] tracking-[-2px] font-[700]"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -81,7 +81,7 @@ export default function WhatMakesDifferent() {
 
           {/* SUBTEXT */}
           <p
-            className="mt-4 text-[22px] text-[#8A8A8A] font-medium"
+            className="mt-2 text-[22px] text-[#8A8A8A] font-medium"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -94,22 +94,24 @@ export default function WhatMakesDifferent() {
         {/* MAIN GRID */}
         <div className="grid grid-cols-[0.82fr_1.18fr] gap-12 mt-16 max-w-[1180px] mx-auto items-start">
 
-          {/* LEFT IMAGE */}
-          <div className="flex justify-center">
+         
+         {/* LEFT IMAGE */}
+<div className="flex justify-center">
+  <img
+    src={tabs[activeTab].image}
+    alt="Analytics illustration"
+    className={`
+      w-[469px]
+      h-[480px]
+      object-contain
 
-            <img
-  src={tabs[activeTab].image}
-  alt="Analytics illustration"
-  className="
-    w-[469px]
-    h-[454px]
-    object-contain
-    transition-all
-    duration-500
-  "
-/>
+  
+      ${activeTab === 2 ? "scale-[1.18] mt-12"  : ""}
+    `}
+  />
+</div>
 
-          </div>
+        
 
           {/* RIGHT SIDE */}
           <div>
@@ -157,33 +159,70 @@ export default function WhatMakesDifferent() {
 <div className="mt-5">
 
   {/* BOX */}
-  <div className="bg-[#F8F5EA] border border-[#D9CFB5] rounded-[16px] px-8 py-8 transition-all duration-300 overflow-hidden">
+<div
+  className="
+    bg-[#F8F5EA]
+    border
+    border-[#D9CFB5]
+    rounded-[16px]
+    px-8
+    py-8
+    transition-all
+    duration-300
+    overflow-hidden
 
-    {/* TITLE */}
-    <h3
-      className="text-[30px] leading-[1.05] font-[950] text-[#FF5A0A] tracking-[-1.3px] max-w-[520px]"
-      style={{
-        fontFamily: "Figtree, sans-serif",
-      }}
-    >
-      {tabs[activeTab].title}
-    </h3>
+    h-[300px]
+    min-h-[300px]
+    max-h-[300px]
 
-    {/* DESCRIPTION */}
-    <p
-      className="mt-5 text-[16px] leading-[28px] text-[#5F5F5F] font-medium max-w-[560px]"
-      style={{
-        fontFamily: "Figtree, sans-serif",
-      }}
-    >
-      {tabs[activeTab].description}
-    </p>
+    flex
+    flex-col
+  "
+>
 
-  </div>
+  {/* TITLE */}
+  <h3
+    className="
+      text-[30px]
+      leading-[1.05]
+      font-[950]
+      text-[#FF5A0A]
+      tracking-[-1.3px]
+      max-w-[520px]
+
+      min-h-[40px]
+    "
+    style={{
+      fontFamily: "Figtree, sans-serif",
+    }}
+  >
+    {tabs[activeTab].title}
+  </h3>
+
+  {/* DESCRIPTION */}
+  <p
+    className="
+      mt-5
+      text-[16px]
+      leading-[28px]
+      text-[#5F5F5F]
+      font-medium
+      
+
+      overflow-hidden
+    "
+    style={{
+      fontFamily: "Figtree, sans-serif",
+    }}
+  >
+    {tabs[activeTab].description}
+  </p>
+
+</div>
 
   {/* ITALIC TEXT */}
   <p
-    className="mt-7 text-[26px] italic leading-[1.2 text-[#333333] font-semibold tracking-[-0.8px]"
+    className="mt-4 text-[26px] italic leading-[1.2 text-[#333333] font-semibold tracking-[-0.8px]"
     style={{
       fontFamily: "Figtree, sans-serif",
     }}
@@ -192,7 +231,7 @@ export default function WhatMakesDifferent() {
   </p>
 
   {/* BUTTON */}
-  <div className="mt-7">
+  <div className="mt-4">
 
     <button
       className="bg-[#FF5A0A] hover:bg-[#EB5200] transition-all duration-300 text-white px-6 py-3 rounded-full text-[16px] font-bold tracking-[0.3px] shadow-[0_6px_16px_rgba(255,90,10,0.35)] inline-flex items-center gap-2"

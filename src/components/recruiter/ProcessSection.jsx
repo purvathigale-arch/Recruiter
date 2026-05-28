@@ -4,14 +4,14 @@ import processImage from "../../assets/DeskGirlVector.svg";
 
 export default function ProcessSection() {
   return (
-    <section className="bg-[#FFFFFF] py-24 overflow-hidden">
+    <section className="bg-[#FFFFFF] py-8 overflow-hidden">
       <Container>
 
         {/* HEADING */}
         <div className="text-center">
 
           <h2
-            className="text-[48px] font-black tracking-[-2px] leading-[1.05]"
+            className="text-[48px] font-[700] tracking-[-2px] leading-[1.05]"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -29,7 +29,7 @@ export default function ProcessSection() {
 
           {/* SUBTEXT */}
           <p
-            className="mt-4 text-[22px] text-[#9A9A9A] font-medium"
+            className="mt-2 text-[22px] text-[#9A9A9A] font-medium"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -49,7 +49,7 @@ export default function ProcessSection() {
             <div>
 
               <h3
-                className="text-[#FF5A0A] text-[32px] font-black tracking-[-0.5px]"
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -58,7 +58,7 @@ export default function ProcessSection() {
               </h3>
 
               <p
-                className="mt-1 text-[21px] leading-[25px] text-[#111111] font-medium max-w-[720px]"
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -73,7 +73,7 @@ export default function ProcessSection() {
             <div className="mt-6">
 
               <h3
-                className="text-[#FF5A0A] text-[32px] font-black tracking-[-0.5px]"
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -82,7 +82,7 @@ export default function ProcessSection() {
               </h3>
 
               <p
-                className="mt-1 text-[21px] leading-[25px] text-[#111111] font-medium max-w-[720px]"
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -97,7 +97,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <div className="mt-6">
 
               <h3
-                className="text-[#FF5A0A] text-[32px] font-black tracking-[-0.5px]"
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -106,7 +106,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
               </h3>
 
               <p
-                className="mt-1 text-[21px] leading-[25px] text-[#111111] font-medium max-w-[720px]"
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -120,7 +120,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <div className="mt-6">
 
               <h3
-                className="text-[#FF5A0A] text-[32px] font-black tracking-[-0.5px]"
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -129,7 +129,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
               </h3>
 
               <p
-                className="mt-1 text-[21px] leading-[25px] text-[#111111] font-medium max-w-[720px]"
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -143,7 +143,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <div className="mt-6">
 
               <h3
-                className="text-[#FF5A0A] text-[32px] font-black tracking-[-0.5px]"
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -152,7 +152,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
               </h3>
 
               <p
-                className="mt-1 text-[21px] leading-[25px] text-[#111111] font-medium max-w-[720px]"
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -166,7 +166,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <div className="mt-10">
 
               <button
-                className="bg-[#FF5A0A] hover:bg-[#ea4f00] transition-all duration-300 text-white text-[16px] font-bold px-8 py-4 rounded-full tracking-[0.3px]"
+                className="bg-[#FF5A0A] hover:bg-[#ea4f00] transition-all duration-300 text-white text-[16px] font-bold px-8 py-3 rounded-full tracking-[0.3px]"
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -185,7 +185,7 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <img
               src={processImage}
               alt="AI hiring process illustration"
-              className="relative z-10 w-[692px] h-[746px] object-contain mt-50"
+              className="relative z-10 w-[692px] h-[746px] object-contain mt-16"
             />
 
           </div>

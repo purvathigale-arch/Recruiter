@@ -4,17 +4,21 @@ import icon1 from "../../assets/icon-1.svg";
 import icon2 from "../../assets/icon-2.svg";
 import icon3 from "../../assets/icon-3.svg";
 import icon4 from "../../assets/icon-4.svg";
+import HiringCalculator from "./HiringCalculator";
+import { useState } from "react";
 
 export default function Problem() {
+  const [showCalculator, setShowCalculator] = useState(false);
+
   return (
-    <section className="bg-[#FFFFFF] py-16">
+    <section className="bg-[#FFFFFF] py-4">
       <Container>
 
         {/* HEADING */}
         <div className="max-w-[1100px] mx-auto text-center">
 
           <h2
-            className="font-black text-[#111111] tracking-[-2px] leading-[1.05]"
+            className="font-[700] text-[#111111] tracking-[-2px] leading-[1.05]"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -26,11 +30,11 @@ export default function Problem() {
             </div>
 
             {/* LINE 2 */}
-            <div className="text-[48px] mt-[4px]">
+            <div className="text-[48px]  mt-[4px]">
 
               It's Six Months of{" "}
 
-              <span className="text-[#FF5A0A]">
+              <span className="text-[#FF5A0A] ">
                 Someone Else Not Getting the Job.
               </span>
 
@@ -40,7 +44,7 @@ export default function Problem() {
 
           {/* SUBTEXT */}
           <p
-            className="mt-5 text-[22px] leading-[24px] text-[#8A8A8A] font-medium max-w-[1000px] mx-auto"
+            className="mt-5 text-[20px] leading-[24px] text-[#8A8A8A] font-medium max-w-[1280px] mx-auto"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -56,7 +60,7 @@ export default function Problem() {
 <div className="grid grid-cols-2 gap-7 mt-12 max-w-[1500px] mx-auto">
 
   {/* CARD 1 */}
-  <div className="bg-[#F8F7EC] h-[189px] rounded-[18px] px-7 py-6 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -71,7 +75,7 @@ export default function Problem() {
     <div>
 
       <h3
-        className="text-[#FF5A0A] text-[42px] font-black leading-none tracking-[-1.2px]"
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -80,7 +84,7 @@ export default function Problem() {
       </h3>
 
       <p
-        className="text-[24px] font-extrabold text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -89,7 +93,7 @@ export default function Problem() {
       </p>
 
       <p
-        className="text-[20px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[430px] font-medium"
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -101,7 +105,7 @@ export default function Problem() {
   </div>
 
   {/* CARD 2 */}
-  <div className="bg-[#F8F7EC] h-[189px] rounded-[18px] px-7 py-6 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -116,7 +120,7 @@ export default function Problem() {
     <div>
 
       <h3
-        className="text-[#FF5A0A] text-[42px] font-black leading-none tracking-[-1.2px]"
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -125,7 +129,7 @@ export default function Problem() {
       </h3>
 
       <p
-        className="text-[24px] font-extrabold text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -134,7 +138,7 @@ export default function Problem() {
       </p>
 
       <p
-        className="text-[20px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[430px] font-medium"
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -146,7 +150,7 @@ export default function Problem() {
   </div>
 
   {/* CARD 3 */}
-  <div className="bg-[#F8F7EC] h-[189px] rounded-[18px] px-7 py-6 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -161,7 +165,7 @@ export default function Problem() {
     <div>
 
       <h3
-        className="text-[#FF5A0A] text-[42px] font-black leading-none tracking-[-1.2px]"
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -170,7 +174,7 @@ export default function Problem() {
       </h3>
 
       <p
-        className="text-[24px] font-extrabold text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -179,7 +183,7 @@ export default function Problem() {
       </p>
 
       <p
-        className="text-[20px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[430px] font-medium"
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -192,7 +196,7 @@ export default function Problem() {
   </div>
 
   {/* CARD 4 */}
-  <div className="bg-[#F8F7EC] h-[189px] rounded-[18px] px-7 py-6 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -207,7 +211,7 @@ export default function Problem() {
     <div>
 
       <h3
-        className="text-[#FF5A0A] text-[42px] font-black leading-none tracking-[-1.2px]"
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -216,7 +220,7 @@ export default function Problem() {
       </h3>
 
       <p
-        className="text-[24px] font-extrabold text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -225,12 +229,12 @@ export default function Problem() {
       </p>
 
       <p
-        className="text-[20px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[430px] font-medium"
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[480px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
       >
-        Spent on work that require “little to none” human judgement — creating burnout and bottlenecks in your talent pipeline.
+        Spent on work that require “little to none” human judgement - creating burnout and bottlenecks.
       </p>
 
     </div>
@@ -247,16 +251,16 @@ export default function Problem() {
             <img
               src={problemImage}
               alt="Business analytics illustration"
-              className="w-[350px] object-contain"
+              className="w-[350px] mt-2 object-contain"
             />
 
           </div>
 
           {/* RIGHT BOX */}
-          <div className="border h-[400px] border-[#C6AE63] rounded-[30px] px-10 py-8">
+          <div className="border h-[350px] border-[#C6AE63] rounded-[30px] px-10 py-15">
 
             <h3
-              className="text-[32px] font-black tracking-[-1px] leading-[1.12]"
+              className="text-[32px] font-[700] tracking-[-1px] leading-[1.12]"
               style={{
                 fontFamily: "Figtree, sans-serif",
               }}
@@ -272,7 +276,7 @@ export default function Problem() {
 
             </h3>
 
-            <p className="mt-5 text-[24px] leading-[28px] text-[#7A7A7A] font-medium">
+            <p className="mt-5 text-[20px] leading-[28px] text-[#7A7A7A] font-medium">
 
               Industry attrition averages 17.1% across sectors. At that rate,
               a 500-person organisation replaces 85 people annually.
@@ -286,11 +290,11 @@ export default function Problem() {
             {/* BUTTON */}
             <div className="mt-6">
 
-              <button className="bg-[#FF5A0A] hover:bg-[#eb4f00] transition-all duration-300 text-white font-bold text-[16px] px-6 py-3 rounded-full tracking-[0.3px]">
+              <button className="bg-[#FF5A0A] hover:bg-[#eb4f00] transition-all duration-300 text-white font-bold text-[16px] px-6 py-3 rounded-full tracking-[0.3px]" onClick={() => setShowCalculator(true)}>
                 CHECK HOW MUCH YOU ARE LOSING
               </button>
 
-              <p className="text-[18px] text-[#8B8B8B] italic mt-3">
+              <p className="text-[16px] text-[#8B8B8B] italic mt-3">
                 In 30 seconds.
               </p>
 
@@ -299,6 +303,8 @@ export default function Problem() {
         </div>
 
       </Container>
+
+      {showCalculator && <HiringCalculator onClose={() => setShowCalculator(false)} />}
     </section>
   );
 }

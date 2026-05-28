@@ -18,7 +18,7 @@ export default function PayOnlySection() {
   const topCards = [
     {
       title: "CV Unlock -\nAll Candidate",
-      price: "30/~",
+      price: "30",
       icon: cvUnlockIcon,
 
       description:
@@ -26,8 +26,8 @@ export default function PayOnlySection() {
     },
 
     {
-      title: "CV Unlock All +\nCV Rating",
-      price: "35/~",
+      title: "CV Unlock All +\nCV Ranking",
+      price: "35",
       icon: cvUnlockAllIcon,
 
       description:
@@ -35,7 +35,7 @@ export default function PayOnlySection() {
     },
 
     {
-      title: "Psychometric\nAnalysis",
+      title: "Professional Personality Profile",
       price: "500",
       icon: psychometricIcon,
 
@@ -49,7 +49,7 @@ export default function PayOnlySection() {
       icon: aiInterviewIcon,
 
       description:
-        "Conduct one full structured AI video interview and receive a baseline candidate report.",
+        "Conduct one full structured AI video interview and receive a baseline candidate report containing a score and summary of each Q & A.",
     },
   ];
 
@@ -60,7 +60,7 @@ export default function PayOnlySection() {
       icon: predictiveIcon,
 
       description:
-        "Unlock the Predictive Hiring Engine with Role Fit and Performance Predictability.",
+        "Unlock the full Predictive Hiring Engine: Role Fit Score, Performance Predictability Score, and Good to Hire Score for each candidate",
     },
 
     {
@@ -69,16 +69,16 @@ export default function PayOnlySection() {
       icon: antiCheatIcon,
 
       description:
-        "Flags tab switching, face absence, multiple persons and AI-generated answers.",
+        "Enable full proctoring — flags tab switching, face absence, multiple persons, multiple voice, AI generated answers & other fraud signals throughout the interview.",
     },
 
     {
       title: "Behavioural\nSignal Analysis",
-      price: "200",
+      price: "400",
       icon: behaviouralIcon,
 
       description:
-        "Real-time emotional and behavioural signal tracking throughout interviews.",
+        "Add real-time emotional and behavioural signal tracking throughout the AI interview",
     },
 
     {
@@ -87,13 +87,13 @@ export default function PayOnlySection() {
       icon: followupIcon,
 
       description:
-        "Let Zepcruit AI probe deeper on responses with adaptive questioning.",
+        "Let Zepcruit AI probe deeper on specific responses - adding an adaptive interview layer for the face to face round.",
     },
   ];
 
   return (
 
-    <section className="w-full bg-[#FFFFFF] py-[90px] overflow-hidden">
+    <section className="w-full bg-[#FFFFFF] py-18 overflow-hidden">
 
       <div className="max-w-[1180px] mx-auto px-4">
 
@@ -102,7 +102,7 @@ export default function PayOnlySection() {
         <div className="text-center">
 
           <h2
-            className="text-[48px] leading-none font-black text-black"
+            className="text-[48px] leading-none font-[700] text-black"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -111,7 +111,7 @@ export default function PayOnlySection() {
           </h2>
 
           <p
-            className="mt-3 text-[22px] text-[#8C8C8C] font-medium"
+            className="mt-2 text-[22px] text-[#8C8C8C] font-medium"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -127,7 +127,7 @@ export default function PayOnlySection() {
 
           {/* TOP CARDS */}
 
-          <div className="flex w-[230px] gap-[36px]">
+          <div className="flex w-[230px] gap-[36px] space-y-10">
 
             {topCards.map((card, index) => (
               <FlipCard key={index} {...card} />
@@ -182,20 +182,22 @@ export default function PayOnlySection() {
   {/* ORANGE LEFT BAR */}
   <div className="absolute left-0 top-0 h-full w-[13px] bg-[#FF580E]" />
 
+  <div className="flex items-center gap-2 ml-2">
+
   <p
-    className="text-[33px] font-black leading-none text-[#FF580E] ml-2"
+    className="text-[33px] font-black leading-none text-[#FF580E]"
     style={{
       fontFamily: "Figtree, sans-serif",
     }}
   >
-    1 ₹ = 1
+    ₹ 1 =
   </p>
 
   {/* SMALL SVG */}
 
   <svg
     width="23"
-    height="24"
+    height="22"
     viewBox="0 0 20 21"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -205,6 +207,17 @@ export default function PayOnlySection() {
       fill="#FF580E"
     />
   </svg>
+
+  <p
+    className="text-[33px] font-black leading-none text-[#FF580E]"
+    style={{
+      fontFamily: "Figtree, sans-serif",
+    }}
+  >
+     1
+  </p>
+
+</div>
 
 </div>
 
@@ -216,10 +229,10 @@ export default function PayOnlySection() {
 
 <div className="relative h-[70px]">
 
-  <div className="absolute left-[595px] top-[-2px] flex flex-col items-center z-20">
+  <div className="absolute left-[595px] top-[30px] flex flex-col items-center z-20">
 
     {/* TOP LINE */}
-    <div className="w-[2.5px] h-[50px] bg-[#5E2CFF]" />
+    <div className="w-[2.5px] h-[32px] bg-[#5E2CFF]" />
 
     {/* LABEL */}
     <div
@@ -254,7 +267,7 @@ export default function PayOnlySection() {
     </div>
 
     {/* LOWER LINE */}
-    <div className="w-[2.5px] h-[50px] bg-[#5E2CFF]" />
+    <div className="w-[2.5px] h-[38px] bg-[#5E2CFF]" />
 
     {/* ARROW */}
     <div
@@ -354,7 +367,7 @@ export default function PayOnlySection() {
               px-12
               py-9
               width-[1200px]
-              h-[295px]
+              h-[310px]
               mt-[5%]
             "
           >
@@ -419,7 +432,7 @@ function FlipCard({
             items-center
             justify-between
             [backface-visibility:hidden]
-            h-[220px]
+            h-[250px]
           "
         >
 
@@ -463,6 +476,7 @@ function FlipCard({
               items-center
               justify-center
               gap-1
+              mb-2
             "
           >
 
@@ -515,7 +529,7 @@ function FlipCard({
             [transform:rotateY(180deg)]
             [backface-visibility:hidden]
             shadow-[0_6px_18px_rgba(255,88,14,0.22)]
-            h-[220px]
+            h-[250px]
           "
         >
 
