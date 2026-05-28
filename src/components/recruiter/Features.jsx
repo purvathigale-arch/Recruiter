@@ -38,7 +38,11 @@ export default function Features() {
           {/* MAIN CONTAINER */}
           <div className="relative z-10 border border-[#8A8A8A] rounded-[24px] px-6 py-10 bg-[#FFFCF5]">
 
+<<<<<<< HEAD
             <div className="feature-grid grid grid-cols-4 gap-4">
+=======
+            <div className="grid grid-cols-4 gap-4">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
               {/* CARD 1 */}
               <div className="bg-white border border-[#FFB18A] rounded-[12px] overflow-hidden shadow-[0_2px_10px_rgba(0,0,0,0.04)]">

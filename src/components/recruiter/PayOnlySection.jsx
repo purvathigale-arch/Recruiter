@@ -121,6 +121,7 @@ export default function PayOnlySection() {
 
         </div>
 
+<<<<<<< HEAD
         {/* MOBILE ONLY TEXT BOX */}
 <div className="mobile-pay-text md:hidden">
 
@@ -191,6 +192,15 @@ export default function PayOnlySection() {
           {/* TOP CARDS */}
 
           <div className="pay-grid flex w-[230px] gap-[36px] space-y-10">
+=======
+        {/* TOP SECTION */}
+
+        <div className="mt-[42px] flex items-start justify-between relative">
+
+          {/* TOP CARDS */}
+
+          <div className="flex w-[230px] gap-[36px] space-y-10">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
             {topCards.map((card, index) => (
               <FlipCard key={index} {...card} />
@@ -200,7 +210,11 @@ export default function PayOnlySection() {
 
           {/* BIG Z */}
 
+<<<<<<< HEAD
           <div className="big-z-wrapper relative w-[240px] h-[220px] ml-6">
+=======
+          <div className="relative w-[240px] h-[220px] ml-6">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
             {/* BIG SVG */}
 
@@ -225,6 +239,7 @@ export default function PayOnlySection() {
 
 <div
   className="
+<<<<<<< HEAD
     zepcoin-card
     absolute
     left-[50%]
@@ -233,6 +248,11 @@ top-[255px]
 md:left-[-20px]
 md:translate-x-0
 md:top-[85px]
+=======
+    absolute
+    left-[-20px]
+    top-[85px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
     bg-white
     rounded-[10px]
     border
@@ -295,9 +315,16 @@ md:top-[85px]
 
 {/* CONNECTOR */}
 
+<<<<<<< HEAD
 <div className="connector-wrapper relative h-[180px] md:h-[70px]">
 
   <div className="absolute left-1/2 -translate-x-1/2 md:left-[595px] md:translate-x-0 top-[510px] md:top-[30px] flex flex-col items-center z-20">
+=======
+<div className="relative h-[70px]">
+
+  <div className="absolute left-[595px] top-[30px] flex flex-col items-center z-20">
+
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
     {/* TOP LINE */}
     <div className="w-[2.5px] h-[32px] bg-[#5E2CFF]" />
 
@@ -357,7 +384,11 @@ md:top-[85px]
 
         {/* LOWER SECTION */}
 
+<<<<<<< HEAD
         <div className="pay-lower mt-[12px] flex items-start gap-6">
+=======
+        <div className="mt-[12px] flex items-start gap-6">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
           {/* TEXT BOX */}
 
@@ -366,9 +397,13 @@ md:top-[85px]
 <div
   className="
     relative
+<<<<<<< HEAD
     hidden md:block
     pay-text-box
     w-full md:w-[275px]
+=======
+    w-[275px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
     min-h-[205px]
     bg-white
     border-2
@@ -376,7 +411,11 @@ md:top-[85px]
     rounded-[12px]
     px-5
     py-5
+<<<<<<< HEAD
     mt-0 md:mt-[5%]
+=======
+    mt-[5%]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
     overflow-hidden
   "
 >
@@ -435,12 +474,21 @@ md:top-[85px]
               bg-white
               px-12
               py-9
+<<<<<<< HEAD
               w-full md:w-auto md:h-[310px]
+=======
+              width-[1200px]
+              h-[310px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               mt-[5%]
             "
           >
 
+<<<<<<< HEAD
             <div className="pay-bottom-grid flex justify-between gap-4">
+=======
+            <div className="flex justify-between gap-4">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
               {bottomCards.map((card, index) => (
                 <FlipCard key={index} {...card} />
@@ -474,7 +522,11 @@ function FlipCard({
       <div
         className="
           relative
+<<<<<<< HEAD
           w-[145px] md:w-[160px]
+=======
+          w-[160px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
           h-[182px]
           duration-700
           [transform-style:preserve-3d]
@@ -500,7 +552,11 @@ function FlipCard({
             items-center
             justify-between
             [backface-visibility:hidden]
+<<<<<<< HEAD
             h-[220px] md:h-[250px]
+=======
+            h-[250px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
           "
         >
 
@@ -509,15 +565,24 @@ function FlipCard({
           <img
             src={icon}
             alt=""
+<<<<<<< HEAD
             className="w-[80px] md:w-[115px] h-[70px] md:h-[100px] object-contain mt-1"
+=======
+            className="w-[115px] h-[100px] object-contain mt-1"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
           />
 
           {/* TITLE */}
 
           <h3
             className="
+<<<<<<< HEAD
               text-[14px] md:text-[16px]
               leading-[15px] md:leading-[16px]
+=======
+              text-[16px]
+              leading-[16px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               text-center
               font-bold
               text-[#1B1B1B]
@@ -550,7 +615,11 @@ function FlipCard({
 
             <p
               className="
+<<<<<<< HEAD
                 text-[12px] md:text-[14px]
+=======
+                text-[14px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 font-black
                 leading-none
                 text-[#FF580E]
@@ -597,7 +666,11 @@ function FlipCard({
             [transform:rotateY(180deg)]
             [backface-visibility:hidden]
             shadow-[0_6px_18px_rgba(255,88,14,0.22)]
+<<<<<<< HEAD
             h-[220px] md:h-[250px]
+=======
+            h-[250px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
           "
         >
 

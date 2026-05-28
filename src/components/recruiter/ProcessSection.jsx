@@ -40,7 +40,11 @@ export default function ProcessSection() {
         </div>
 
         {/* CONTENT */}
+<<<<<<< HEAD
         <div className="process-layout grid grid-cols-[1.05fr_0.95fr] gap-8 mt-16 items-start max-w-[1180px] mx-auto">
+=======
+        <div className="grid grid-cols-[1.05fr_0.95fr] gap-8 mt-16 items-start max-w-[1180px] mx-auto">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
           {/* LEFT SIDE */}
           <div>
@@ -49,7 +53,11 @@ export default function ProcessSection() {
             <div>
 
               <h3
+<<<<<<< HEAD
                 className="text-[#FF5A0A] process-title text-[28px] font-[650] tracking-[-0.5px]"
+=======
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -58,7 +66,11 @@ export default function ProcessSection() {
               </h3>
 
               <p
+<<<<<<< HEAD
                 className="mt-1 process-desc text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+=======
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -73,7 +85,11 @@ export default function ProcessSection() {
             <div className="mt-6">
 
               <h3
+<<<<<<< HEAD
                 className="text-[#FF5A0A] process-title text-[28px] font-[650] tracking-[-0.5px]"
+=======
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -82,7 +98,11 @@ export default function ProcessSection() {
               </h3>
 
               <p
+<<<<<<< HEAD
                 className="mt-1 process-desc text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+=======
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -97,7 +117,11 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <div className="mt-6">
 
               <h3
+<<<<<<< HEAD
                 className="text-[#FF5A0A] process-title text-[28px] font-[650] tracking-[-0.5px]"
+=======
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -106,7 +130,11 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
               </h3>
 
               <p
+<<<<<<< HEAD
                 className="mt-1 process-desc text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+=======
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -120,7 +148,11 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <div className="mt-6">
 
               <h3
+<<<<<<< HEAD
                 className="text-[#FF5A0A] process-title text-[28px] font-[650] tracking-[-0.5px]"
+=======
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -129,7 +161,11 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
               </h3>
 
               <p
+<<<<<<< HEAD
                 className="mt-1 process-desc text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+=======
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -143,7 +179,11 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
             <div className="mt-6">
 
               <h3
+<<<<<<< HEAD
                 className="text-[#FF5A0A] process-title text-[28px] font-[650] tracking-[-0.5px]"
+=======
+                className="text-[#FF5A0A] text-[28px] font-[650] tracking-[-0.5px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -152,7 +192,11 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
               </h3>
 
               <p
+<<<<<<< HEAD
                 className="mt-1 process-desc text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+=======
+                className="mt-1 text-[16px] leading-[25px] weight-400 text-[#111111] font-medium max-w-[720px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                 style={{
                   fontFamily: "Figtree, sans-serif",
                 }}
@@ -179,13 +223,21 @@ This is not keyword matching. Zepcruit's AI reads every CV contextually, the way
           </div>
 
           {/* RIGHT IMAGE */}
+<<<<<<< HEAD
           <div className="relative flex justify-center">
+=======
+          <div className="relative flex justify-end">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
 
             <img
               src={processImage}
               alt="AI hiring process illustration"
+<<<<<<< HEAD
               className="relative process-image z-10 w-[692px] h-[746px] object-contain mt-16"
+=======
+              className="relative z-10 w-[692px] h-[746px] object-contain mt-16"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
             />
 
           </div>

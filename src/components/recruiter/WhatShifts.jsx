@@ -185,7 +185,11 @@ export default function WhatShifts() {
         </div>
 
         {/* MAIN WRAPPER */}
+<<<<<<< HEAD
         <div className="shift-slider relative mt-12 max-w-[1000px] mx-auto">
+=======
+        <div className="relative mt-12 max-w-[1000px] mx-auto">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
           {/* SHAPES */}
           <img
@@ -228,7 +232,10 @@ export default function WhatShifts() {
           <button
             onClick={handleLeft}
             className={`
+<<<<<<< HEAD
               shift-left-arrow
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               absolute
               left-[-22px]
               top-1/2
@@ -261,7 +268,10 @@ export default function WhatShifts() {
           <button
             onClick={handleRight}
             className={`
+<<<<<<< HEAD
               shift-right-arrow
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               absolute
               right-[-22px]
               top-1/2
@@ -350,7 +360,10 @@ export default function WhatShifts() {
                       transition-all
                       duration-300
                       hover:-translate-y-2
+<<<<<<< HEAD
                       shift-card
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                     "
                   >
 
@@ -389,8 +402,13 @@ export default function WhatShifts() {
                           text-[22px]
                           font-black
                           leading-[1.15]
+<<<<<<< HEAD
                           min-h-[110px]
                           shift-card-title
+=======
+                          min-h-[140px]
+                      translate-y-[25px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                         "
                         style={{
                           fontFamily: "Figtree, sans-serif",
@@ -413,7 +431,10 @@ export default function WhatShifts() {
                       {/* DESCRIPTION */}
                       <p
                         className="
+<<<<<<< HEAD
                           shift-card-desc
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                           text-[18px]
                           leading-[24px]
                           text-[#5E5E5E]

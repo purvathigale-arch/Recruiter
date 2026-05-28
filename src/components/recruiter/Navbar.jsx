@@ -13,7 +13,10 @@ export default function Navbar() {
 
         <nav
           className="
+<<<<<<< HEAD
             custom-navbar
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
             bg-[#FFFFFF]
             border
             border-[#D9D9D9]
@@ -34,7 +37,11 @@ export default function Navbar() {
             <img
               src={logo}
               alt="Zepcruit Logo"
+<<<<<<< HEAD
               className="navbar-logo w-[138px] object-contain"
+=======
+              className="w-[138px] object-contain"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
             />
 
           </div>
@@ -42,7 +49,10 @@ export default function Navbar() {
           {/* CENTER LINKS */}
           <ul
             className="
+<<<<<<< HEAD
               navbar-links
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               hidden
               lg:flex
               items-center
@@ -81,7 +91,10 @@ export default function Navbar() {
           {/* RIGHT BUTTON */}
           <button
             className="
+<<<<<<< HEAD
               navbar-btn
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               border
               border-[#2A2A2A]
               rounded-full

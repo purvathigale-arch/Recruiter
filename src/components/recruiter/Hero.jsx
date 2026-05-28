@@ -15,7 +15,11 @@ export default function Hero() {
         </p>
 
         {/* HERO SECTION */}
+<<<<<<< HEAD
         <div className="hero-grid grid grid-cols-[1.2fr_0.8fr] items-center gap-2">
+=======
+        <div className="grid grid-cols-[1.2fr_0.8fr] items-center gap-2">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
           {/* LEFT SIDE */}
           <div className="max-w-[920px]">
@@ -23,13 +27,19 @@ export default function Hero() {
             {/* MAIN HEADING */}
 <h1
   className="
+<<<<<<< HEAD
     hero-heading
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
     max-w-[820px]
     text-[#111111]
     font-[800]
     tracking-[-2px]
     leading-[0.8]
+<<<<<<< HEAD
     text-[64px]
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
   "
   style={{
     fontFamily: "Figtree, sans-serif",
@@ -103,12 +113,19 @@ export default function Hero() {
           </h2>
 
            {/* CARDS */}
+<<<<<<< HEAD
 <div className="feature-grid grid grid-cols-3 gap-8 max-w-[1200px] mx-auto">
+=======
+<div className="grid grid-cols-3 gap-8 max-w-[1200px] mx-auto">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
   {/* CARD 1 */}
   <div
     className="
+<<<<<<< HEAD
     feature-card
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
   bg-[#FF5A0A]
   rounded-[8px]
   h-[204px]
@@ -128,7 +145,10 @@ export default function Hero() {
 
     <p
       className="
+<<<<<<< HEAD
         feature-card-text
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         text-white
         text-[20px]
         leading-[1.18]
@@ -150,7 +170,10 @@ export default function Hero() {
   {/* CARD 2 */}
   <div
     className="
+<<<<<<< HEAD
     feature-card
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
   bg-[#FF5A0A]
   rounded-[8px]
   h-[204px]
@@ -170,7 +193,10 @@ export default function Hero() {
 
     <p
       className="
+<<<<<<< HEAD
         feature-card-text
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         text-white
         text-[20px]
         leading-[1.18]
@@ -192,7 +218,10 @@ export default function Hero() {
   {/* CARD 3 */}
   <div
     className="
+<<<<<<< HEAD
       feature-card
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
       bg-[#FF5A0A]
       rounded-[8px]
       h-[204px]
@@ -212,7 +241,10 @@ export default function Hero() {
 
     <p
       className="
+<<<<<<< HEAD
         feature-card-text
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         text-white
         text-[20px]
         leading-[1.18]

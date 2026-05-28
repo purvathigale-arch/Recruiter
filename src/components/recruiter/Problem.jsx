@@ -57,10 +57,17 @@ export default function Problem() {
         </div>
 
         {/* STATS GRID */}
+<<<<<<< HEAD
 <div className="stats-grid grid grid-cols-2 gap-7 mt-12 max-w-[1500px] mx-auto">
 
   {/* CARD 1 */}
   <div className="bg-[#F8F7EC] h-[180px] stat-card rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+=======
+<div className="grid grid-cols-2 gap-7 mt-12 max-w-[1500px] mx-auto">
+
+  {/* CARD 1 */}
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -75,7 +82,11 @@ export default function Problem() {
     <div>
 
       <h3
+<<<<<<< HEAD
         className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
+=======
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -84,7 +95,11 @@ export default function Problem() {
       </h3>
 
       <p
+<<<<<<< HEAD
         className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+=======
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -93,7 +108,11 @@ export default function Problem() {
       </p>
 
       <p
+<<<<<<< HEAD
         className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
+=======
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -105,7 +124,11 @@ export default function Problem() {
   </div>
 
   {/* CARD 2 */}
+<<<<<<< HEAD
   <div className="bg-[#F8F7EC] stat-card h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+=======
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -120,7 +143,11 @@ export default function Problem() {
     <div>
 
       <h3
+<<<<<<< HEAD
         className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
+=======
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -129,7 +156,11 @@ export default function Problem() {
       </h3>
 
       <p
+<<<<<<< HEAD
         className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+=======
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -138,7 +169,11 @@ export default function Problem() {
       </p>
 
       <p
+<<<<<<< HEAD
         className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
+=======
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -150,7 +185,11 @@ export default function Problem() {
   </div>
 
   {/* CARD 3 */}
+<<<<<<< HEAD
   <div className="bg-[#F8F7EC] stat-card h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+=======
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -165,7 +204,11 @@ export default function Problem() {
     <div>
 
       <h3
+<<<<<<< HEAD
         className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
+=======
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -174,7 +217,11 @@ export default function Problem() {
       </h3>
 
       <p
+<<<<<<< HEAD
         className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+=======
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -183,7 +230,11 @@ export default function Problem() {
       </p>
 
       <p
+<<<<<<< HEAD
         className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
+=======
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -196,7 +247,11 @@ export default function Problem() {
   </div>
 
   {/* CARD 4 */}
+<<<<<<< HEAD
   <div className="bg-[#F8F7EC] stat-card h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+=======
+  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -211,7 +266,11 @@ export default function Problem() {
     <div>
 
       <h3
+<<<<<<< HEAD
         className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
+=======
+        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -220,7 +279,11 @@ export default function Problem() {
       </h3>
 
       <p
+<<<<<<< HEAD
         className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+=======
+        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -229,7 +292,11 @@ export default function Problem() {
       </p>
 
       <p
+<<<<<<< HEAD
         className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[480px] font-[500]"
+=======
+        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[480px] font-[500]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -243,7 +310,11 @@ export default function Problem() {
 </div>
 
         {/* BOTTOM SECTION */}
+<<<<<<< HEAD
         <div className="chro-layout grid grid-cols-[0.55fr_1.45fr] gap-8 items-center mt-14 max-w-[1536px] mx-auto">
+=======
+        <div className="grid grid-cols-[0.55fr_1.45fr] gap-8 items-center mt-14 max-w-[1536px] mx-auto">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
           {/* IMAGE */}
           <div className="flex justify-center items-end">
@@ -251,13 +322,21 @@ export default function Problem() {
             <img
               src={problemImage}
               alt="Business analytics illustration"
+<<<<<<< HEAD
               className="chro-image w-[350px] mt-2 object-contain"
+=======
+              className="w-[350px] mt-2 object-contain"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
             />
 
           </div>
 
           {/* RIGHT BOX */}
+<<<<<<< HEAD
           <div className="border chro-card h-[350px] border-[#C6AE63] rounded-[30px] px-10 py-15">
+=======
+          <div className="border h-[350px] border-[#C6AE63] rounded-[30px] px-10 py-15">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
             <h3
               className="text-[32px] font-[700] tracking-[-1px] leading-[1.12]"

@@ -121,10 +121,17 @@ export default function WhatZepcruitOffers() {
         </div>
 
         {/* MAIN SECTION */}
+<<<<<<< HEAD
         <div className="offers-layout mt-16 grid grid-cols-[420px_1fr] gap-6 w-full">
 
           {/* LEFT SIDEBAR */}
           <div className="offers-sidebar bg-[#F7F5EA] border border-[#8C8C8C] rounded-[14px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.05)] h-[534px]">
+=======
+        <div className="mt-16 grid grid-cols-[420px_1fr] gap-6 w-full">
+
+          {/* LEFT SIDEBAR */}
+          <div className="bg-[#F7F5EA] border border-[#8C8C8C] rounded-[14px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.05)] h-[534px]">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
             {/* LABEL */}
             <div className="px-4 pt-4 pb-3">
@@ -173,6 +180,7 @@ export default function WhatZepcruitOffers() {
           </div>
 
           {/* RIGHT CONTENT */}
+<<<<<<< HEAD
          <div
   className="
     offers-content
@@ -192,6 +200,12 @@ export default function WhatZepcruitOffers() {
             {/* TITLE */}
             <h3
               className="text-[34px] offers-title italic font-[700] text-[#111111] tracking-[-1px]"
+=======
+         <div className="bg-[#FFFCF5] border border-[#D7CFB8] h-[534px] rounded-[16px] px-10 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.04)] transition-all duration-300 text-center">
+            {/* TITLE */}
+            <h3
+              className="text-[34px] italic font-[700] text-[#111111] tracking-[-1px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               style={{
                 fontFamily: "Figtree, sans-serif",
               }}
@@ -201,7 +215,11 @@ export default function WhatZepcruitOffers() {
 
             {/* PARAGRAPH */}
             <p
+<<<<<<< HEAD
               className="mt-6 offers-text text-[20px] leading-[30px] text-[#5F5F5F] font-medium max-w-[760px]"
+=======
+              className="mt-6 text-[20px] leading-[30px] text-[#5F5F5F] font-medium max-w-[760px]"
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
               style={{
                 fontFamily: "Figtree, sans-serif",
               }}
@@ -213,7 +231,10 @@ export default function WhatZepcruitOffers() {
            {/* IMPACT BOX */}
 <div
   className="
+<<<<<<< HEAD
     offers-impact
+=======
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
     mt-10
     border
     border-[#FF5A0A]
@@ -269,11 +290,18 @@ export default function WhatZepcruitOffers() {
           </div>
 
           {/* CENTER BUTTON */}
+<<<<<<< HEAD
 <div className="offers-btn-wrapper col-span-2 flex justify-center mt-8">
 
   <button
     className="
       offers-btn
+=======
+<div className="col-span-2 flex justify-center mt-8">
+
+  <button
+    className="
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
       bg-[#FF5A0A]
       hover:bg-[#EB5200]
       transition-all

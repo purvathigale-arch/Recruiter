@@ -5,15 +5,25 @@ export default function EstimatedCostSection() {
    
     <section className="bg-[#FFFFFF] py-[45px]">
 
+<<<<<<< HEAD
       <div className="relative z-10 w-full px-4 md:px-[160px]">
+=======
+      <div className="relative z-10 w-full px-[160px]">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
         {/* TITLE — centered across full width, no ml offset */}
         <h2
           className="
             text-center
+<<<<<<< HEAD
             text-[24px] md:text-[32px]
             leading-[1.2]
             ml-0 md:ml-[450px]
+=======
+            text-[32px]
+            leading-none
+            ml-[450px]
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
             tracking-[-1px]
             font-[700]
             text-[#000000]
@@ -24,10 +34,17 @@ export default function EstimatedCostSection() {
         </h2>
 
         {/* TOP SECTION */}
+<<<<<<< HEAD
         <div className="mt-[20px] flex flex-col md:flex-row items-start gap-10 md:gap-[70px]">
 
           {/* LEFT SIDE — Assumptions */}
        <div className="w-full md:w-[320px] flex-shrink-0 mt-[-8px] pt-[10px]">
+=======
+        <div className="mt-[20px] flex items-start gap-[70px]">
+
+          {/* LEFT SIDE — Assumptions */}
+       <div className="w-[320px] flex-shrink-0 mt-[-8px] pt-[10px]">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
             <h3
               className="text-[32px] italic font-650 text-black leading-none"
@@ -66,9 +83,15 @@ export default function EstimatedCostSection() {
           </div>
 
           {/* TABLE — fixed width, pushed to the right */}
+<<<<<<< HEAD
           <div className="w-full md:w-[700px] ml-auto">
 
             <div className="border border-[#B8B8B8] bg-white rounded-[6px] overflow-x-auto">
+=======
+          <div className="w-[700px] ml-auto">
+
+            <div className="border border-[#B8B8B8] bg-white rounded-[6px] overflow-hidden">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
               {/* HEADER */}
               <div className="grid grid-cols-3 bg-[#FF5A0A]">
@@ -152,7 +175,11 @@ export default function EstimatedCostSection() {
         </div>
 
         {/* LOWER CONTENT */}
+<<<<<<< HEAD
         <div className="mt-[24px] flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
+=======
+        <div className="mt-[24px] flex justify-between items-end gap-8">
+>>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
           <p
             className="max-w-[620px] text-[20px] leading-[22px] text-[#383838] font-medium leading-[32px]"
             style={{ fontFamily: "Figtree, sans-serif" }}
