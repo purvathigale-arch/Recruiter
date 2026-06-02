@@ -121,18 +121,21 @@ export default function WhatZepcruitOffers() {
         </div>
 
         {/* MAIN SECTION */}
-<<<<<<< HEAD
-        <div className="offers-layout mt-16 grid grid-cols-[420px_1fr] gap-6 w-full">
+       <div className="mt-10 lg:mt-16 grid grid-cols-1 lg:grid-cols-[420px_1fr] gap-6 w-full">
 
           {/* LEFT SIDEBAR */}
-          <div className="offers-sidebar bg-[#F7F5EA] border border-[#8C8C8C] rounded-[14px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.05)] h-[534px]">
-=======
-        <div className="mt-16 grid grid-cols-[420px_1fr] gap-6 w-full">
-
-          {/* LEFT SIDEBAR */}
-          <div className="bg-[#F7F5EA] border border-[#8C8C8C] rounded-[14px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.05)] h-[534px]">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-
+        <div
+  className="
+    bg-[#F7F5EA]
+    border
+    border-[#8C8C8C]
+    rounded-[14px]
+    overflow-hidden
+    shadow-[0_4px_12px_rgba(0,0,0,0.05)]
+    h-auto
+  
+  "
+>
             {/* LABEL */}
             <div className="px-4 pt-4 pb-3">
 
@@ -180,62 +183,65 @@ export default function WhatZepcruitOffers() {
           </div>
 
           {/* RIGHT CONTENT */}
-<<<<<<< HEAD
-         <div
+ <div
   className="
-    offers-content
     bg-[#FFFCF5]
     border
     border-[#D7CFB8]
     rounded-[16px]
-    px-10
-    py-8
+    px-5
+    md:px-8
+    lg:px-10
+    py-6
+    lg:py-8
     shadow-[0_4px_12px_rgba(0,0,0,0.04)]
     transition-all
     duration-300
     text-center
-    block md:block
   "
+  style={{
+    height: "fit-content",
+    minHeight: "unset",
+  }}
 >
-            {/* TITLE */}
             <h3
-              className="text-[34px] offers-title italic font-[700] text-[#111111] tracking-[-1px]"
-=======
-         <div className="bg-[#FFFCF5] border border-[#D7CFB8] h-[534px] rounded-[16px] px-10 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.04)] transition-all duration-300 text-center">
-            {/* TITLE */}
-            <h3
-              className="text-[34px] italic font-[700] text-[#111111] tracking-[-1px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-              style={{
-                fontFamily: "Figtree, sans-serif",
-              }}
+              className="
+text-[24px]
+md:text-[30px]
+lg:text-[34px]
+italic
+font-[700]
+text-[#111111]
+tracking-[-1px]
+"
             >
               {offerings[activeIndex].heading}
             </h3>
 
             {/* PARAGRAPH */}
             <p
-<<<<<<< HEAD
-              className="mt-6 offers-text text-[20px] leading-[30px] text-[#5F5F5F] font-medium max-w-[760px]"
-=======
-              className="mt-6 text-[20px] leading-[30px] text-[#5F5F5F] font-medium max-w-[760px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-              style={{
-                fontFamily: "Figtree, sans-serif",
-              }}
+           className="
+mt-4
+lg:mt-6
+text-[16px]
+md:text-[18px]
+lg:text-[20px]
+leading-[28px]
+lg:leading-[30px]
+text-[#5F5F5F]
+font-medium
+max-w-[760px]
+mx-auto
+"
             >
               {offerings[activeIndex].content}
             </p>
 
             {/* IMPACT BOX */}
-           {/* IMPACT BOX */}
+          
 <div
   className="
-<<<<<<< HEAD
-    offers-impact
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-    mt-10
+    mt-6 lg:mt-10
     border
     border-[#FF5A0A]
     rounded-[14px]
@@ -249,7 +255,7 @@ export default function WhatZepcruitOffers() {
   <div className="w-[18px] bg-[#FF5A0A] shrink-0" />
 
   {/* CONTENT */}
-  <div className="px-8 py-6 flex-1">
+  <div className="px-5 md:px-8 py-5 md:py-6 flex-1">
 
     <p
       className="
@@ -290,18 +296,10 @@ export default function WhatZepcruitOffers() {
           </div>
 
           {/* CENTER BUTTON */}
-<<<<<<< HEAD
-<div className="offers-btn-wrapper col-span-2 flex justify-center mt-8">
+<div className="lg:col-span-2 flex justify-center mt-8">
 
   <button
     className="
-      offers-btn
-=======
-<div className="col-span-2 flex justify-center mt-8">
-
-  <button
-    className="
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
       bg-[#FF5A0A]
       hover:bg-[#EB5200]
       transition-all

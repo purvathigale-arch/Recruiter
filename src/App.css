@@ -180,5 +180,9 @@
   &::after {
     right: 0;
     border-right-color: var(--border);
+
+    .mobile-flipped {
+  transform: rotateY(180deg);
+}
   }
 }

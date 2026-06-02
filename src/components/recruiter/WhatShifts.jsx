@@ -185,59 +185,59 @@ export default function WhatShifts() {
         </div>
 
         {/* MAIN WRAPPER */}
-<<<<<<< HEAD
-        <div className="shift-slider relative mt-12 max-w-[1000px] mx-auto">
-=======
         <div className="relative mt-12 max-w-[1000px] mx-auto">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
           {/* SHAPES */}
           <img
             src={ellipse4}
             alt=""
-            className="
-              absolute
-              -left-[250px]
-              -top-[100px]
-              w-[320px]
-              z-0
-            "
+        
+className="
+  hidden lg:block
+  absolute
+  -left-[250px]
+  -top-[100px]
+  w-[320px]
+  z-0
+"
           />
 
           <img
             src={ellipse5}
             alt=""
-            className="
-              absolute
-              right-[250px]
-              -top-[55px]
-              w-[90px]
-              z-0
-            "
+           // ELLIPSE 5
+className="
+  hidden lg:block
+  absolute
+  right-[250px]
+  -top-[55px]
+  w-[90px]
+  z-0
+"
           />
 
           <img
             src={ellipse6}
             alt=""
-            className="
-              absolute
-              -right-[170px]
-              bottom-[-40px]
-              w-[230px]
-              z-0
-            "
+            // ELLIPSE 6
+className="
+  hidden lg:block
+  absolute
+  -right-[170px]
+  bottom-[-40px]
+  w-[230px]
+  z-0
+"
           />
 
           {/* LEFT ARROW */}
           <button
             onClick={handleLeft}
             className={`
-<<<<<<< HEAD
-              shift-left-arrow
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-              absolute
-              left-[-22px]
+             
+  hidden lg:flex
+  absolute
+  left-[-22px]
               top-1/2
               -translate-y-1/2
               z-30
@@ -268,12 +268,11 @@ export default function WhatShifts() {
           <button
             onClick={handleRight}
             className={`
-<<<<<<< HEAD
-              shift-right-arrow
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-              absolute
-              right-[-22px]
+            
+  hidden lg:flex
+  absolute
+  right-[-22px]
+  
               top-1/2
               -translate-y-1/2
               z-30
@@ -317,7 +316,21 @@ export default function WhatShifts() {
 
             {/* SLIDER */}
             <div
-              className="overflow-hidden"
+            // SLIDER
+className="
+  flex
+  gap-5
+  overflow-x-auto
+  touch-pan-x
+  scroll-smooth
+  pr-[20px]
+  pt-[10px]
+
+  [-ms-overflow-style:none]
+  [scrollbar-width:none]
+
+  [&::-webkit-scrollbar]:hidden
+"
               onWheel={(e) => {
 
                 e.preventDefault();
@@ -360,10 +373,6 @@ export default function WhatShifts() {
                       transition-all
                       duration-300
                       hover:-translate-y-2
-<<<<<<< HEAD
-                      shift-card
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                     "
                   >
 
@@ -402,13 +411,8 @@ export default function WhatShifts() {
                           text-[22px]
                           font-black
                           leading-[1.15]
-<<<<<<< HEAD
-                          min-h-[110px]
-                          shift-card-title
-=======
                           min-h-[140px]
                       translate-y-[25px]
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                         "
                         style={{
                           fontFamily: "Figtree, sans-serif",
@@ -431,10 +435,6 @@ export default function WhatShifts() {
                       {/* DESCRIPTION */}
                       <p
                         className="
-<<<<<<< HEAD
-                          shift-card-desc
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
                           text-[18px]
                           leading-[24px]
                           text-[#5E5E5E]

@@ -25,12 +25,12 @@ export default function Problem() {
           >
 
             {/* LINE 1 */}
-            <div className="text-[48px]">
+           <div className="text-[30px] sm:text-[40px] lg:text-[48px]">
               Every Wrong Hire is not Just a Budget Line.
             </div>
 
             {/* LINE 2 */}
-            <div className="text-[48px]  mt-[4px]">
+          <div className="text-[30px] sm:text-[40px] lg:text-[48px] mt-[4px]">
 
               It's Six Months of{" "}
 
@@ -44,7 +44,7 @@ export default function Problem() {
 
           {/* SUBTEXT */}
           <p
-            className="mt-5 text-[20px] leading-[24px] text-[#8A8A8A] font-medium max-w-[1280px] mx-auto"
+            className="mt-5 text-[16px] sm:text-[18px] lg:text-[20px] leading-[24px] text-[#8A8A8A] font-medium max-w-[1280px] mx-auto"
             style={{
               fontFamily: "Figtree, sans-serif",
             }}
@@ -57,17 +57,10 @@ export default function Problem() {
         </div>
 
         {/* STATS GRID */}
-<<<<<<< HEAD
-<div className="stats-grid grid grid-cols-2 gap-7 mt-12 max-w-[1500px] mx-auto">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-7 mt-12 max-w-[1500px] mx-auto">
 
   {/* CARD 1 */}
-  <div className="bg-[#F8F7EC] h-[180px] stat-card rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
-=======
-<div className="grid grid-cols-2 gap-7 mt-12 max-w-[1500px] mx-auto">
-
-  {/* CARD 1 */}
-  <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+  <div className="bg-[#F8F7EC] min-h-[180px] h-auto rounded-[18px] px-5 py-5 lg:px-8 lg:py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -82,11 +75,7 @@ export default function Problem() {
     <div>
 
       <h3
-<<<<<<< HEAD
-        className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
-=======
-        className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+        className="text-[#FF5A0A] text-[30px] sm:text-[36px] lg:text-[42px] font-[600] leading-none tracking-[-1.2px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -95,11 +84,7 @@ export default function Problem() {
       </h3>
 
       <p
-<<<<<<< HEAD
-        className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
-=======
-        className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+        className="text-[16px] sm:text-[18px] lg:text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -108,11 +93,7 @@ export default function Problem() {
       </p>
 
       <p
-<<<<<<< HEAD
-        className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
-=======
-        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+        className="text-[14px] sm:text-[16px] lg:text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -124,11 +105,7 @@ export default function Problem() {
   </div>
 
   {/* CARD 2 */}
-<<<<<<< HEAD
-  <div className="bg-[#F8F7EC] stat-card h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
-=======
   <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -143,11 +120,7 @@ export default function Problem() {
     <div>
 
       <h3
-<<<<<<< HEAD
-        className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
-=======
         className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -156,11 +129,7 @@ export default function Problem() {
       </h3>
 
       <p
-<<<<<<< HEAD
-        className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
-=======
         className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -169,11 +138,7 @@ export default function Problem() {
       </p>
 
       <p
-<<<<<<< HEAD
-        className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
-=======
-        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+        className="text-[18px] sm:text-[20px] lg:text-[22px] leading-[24px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -185,11 +150,7 @@ export default function Problem() {
   </div>
 
   {/* CARD 3 */}
-<<<<<<< HEAD
-  <div className="bg-[#F8F7EC] stat-card h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
-=======
   <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -204,11 +165,7 @@ export default function Problem() {
     <div>
 
       <h3
-<<<<<<< HEAD
-        className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
-=======
         className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -217,11 +174,7 @@ export default function Problem() {
       </h3>
 
       <p
-<<<<<<< HEAD
-        className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
-=======
         className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -230,11 +183,7 @@ export default function Problem() {
       </p>
 
       <p
-<<<<<<< HEAD
-        className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
-=======
-        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+        className="text-[14px] sm:text-[16px] lg:text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[460px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -247,11 +196,7 @@ export default function Problem() {
   </div>
 
   {/* CARD 4 */}
-<<<<<<< HEAD
-  <div className="bg-[#F8F7EC] stat-card h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
-=======
   <div className="bg-[#F8F7EC] h-[180px] rounded-[18px] px-8 py-8 shadow-[0_4px_12px_rgba(0,0,0,0.08)] border border-[#ECE7DA] flex items-start gap-5">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
     {/* ICON */}
     <div className="shrink-0 mt-[2px]">
@@ -266,11 +211,7 @@ export default function Problem() {
     <div>
 
       <h3
-<<<<<<< HEAD
-        className="text-[#FF5A0A] text-[42px] stat-number font-[600] leading-none tracking-[-1.2px]"
-=======
         className="text-[#FF5A0A] text-[42px] font-[600] leading-none tracking-[-1.2px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -279,11 +220,7 @@ export default function Problem() {
       </h3>
 
       <p
-<<<<<<< HEAD
-        className="text-[20px] stat-title font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
-=======
         className="text-[20px] font-[500] text-[#111111] leading-[1.15] mt-[2px] tracking-[-0.3px]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -292,11 +229,7 @@ export default function Problem() {
       </p>
 
       <p
-<<<<<<< HEAD
-        className="text-[18px] stat-desc leading-[20px] text-[#8B8B8B] mt-3 max-w-[480px] font-[500]"
-=======
-        className="text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[480px] font-[500]"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+        className="text-[14px] sm:text-[16px] lg:text-[18px] leading-[20px] text-[#8B8B8B] mt-3 max-w-[480px] font-[500]"
         style={{
           fontFamily: "Figtree, sans-serif",
         }}
@@ -310,76 +243,75 @@ export default function Problem() {
 </div>
 
         {/* BOTTOM SECTION */}
-<<<<<<< HEAD
-        <div className="chro-layout grid grid-cols-[0.55fr_1.45fr] gap-8 items-center mt-14 max-w-[1536px] mx-auto">
-=======
-        <div className="grid grid-cols-[0.55fr_1.45fr] gap-8 items-center mt-14 max-w-[1536px] mx-auto">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-
+        <div className="grid grid-cols-1 lg:grid-cols-[0.55fr_1.45fr] gap-8 items-center mt-14 max-w-[1536px] mx-auto">
           {/* IMAGE */}
           <div className="flex justify-center items-end">
 
             <img
               src={problemImage}
               alt="Business analytics illustration"
-<<<<<<< HEAD
-              className="chro-image w-[350px] mt-2 object-contain"
-=======
-              className="w-[350px] mt-2 object-contain"
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+            className="w-[220px] sm:w-[280px] lg:w-[350px] mt-2 object-contain"
             />
 
           </div>
 
           {/* RIGHT BOX */}
-<<<<<<< HEAD
-          <div className="border chro-card h-[350px] border-[#C6AE63] rounded-[30px] px-10 py-15">
-=======
-          <div className="border h-[350px] border-[#C6AE63] rounded-[30px] px-10 py-15">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+       {/* RIGHT BOX */}
+<div className="border border-[#C6AE63] rounded-[30px] px-5 py-6 lg:px-10 lg:py-10 min-h-[350px] h-auto">
 
-            <h3
-              className="text-[32px] font-[700] tracking-[-1px] leading-[1.12]"
-              style={{
-                fontFamily: "Figtree, sans-serif",
-              }}
-            >
+  <h3
+    className="text-[24px] sm:text-[28px] lg:text-[32px] font-[700] tracking-[-1px] leading-[1.12]"
+    style={{
+      fontFamily: "Figtree, sans-serif",
+    }}
+  >
+    <span className="text-[#FF5A0A]">
+      For CHROs:
+    </span>{" "}
+    <span className="text-[#111111]">
+      What this means at the leadership level
+    </span>
+  </h3>
 
-              <span className="text-[#FF5A0A]">
-                For CHROs:
-              </span>{" "}
+  <p className="mt-5 text-[16px] sm:text-[18px] lg:text-[20px] leading-[24px] lg:leading-[28px] text-[#7A7A7A] font-medium">
+    Industry attrition averages 17.1% across sectors. At that rate,
+    a 500-person organisation replaces 85 people annually.
 
-              <span className="text-[#111111]">
-                What this means at the leadership level
-              </span>
+    If even 30% of those are wrong hires, the compounding cost -
+    in re-hiring, lost productivity, and team disruption -
+    exceeds ₹2–3 crore a year.
+  </p>
 
-            </h3>
+  <button
+    className="
+      bg-[#FF5A0A]
+      hover:bg-[#eb4f00]
+      transition-all
+      duration-300
+      text-white
+      font-bold
+      text-[14px]
+      lg:text-[16px]
+      px-5
+      lg:px-6
+      py-3
+      rounded-full
+      tracking-[0.3px]
+      w-full
+      sm:w-auto
+    "
+    onClick={() => setShowCalculator(true)}
+  >
+    CHECK HOW MUCH YOU ARE LOSING
+  </button>
 
-            <p className="mt-5 text-[20px] leading-[28px] text-[#7A7A7A] font-medium">
+  <p className="text-[16px] text-[#8B8B8B] italic mt-3">
+    In 30 seconds.
+  </p>
 
-              Industry attrition averages 17.1% across sectors. At that rate,
-              a 500-person organisation replaces 85 people annually.
-
-              If even 30% of those are wrong hires, the compounding cost -
-              in re-hiring, lost productivity, and team disruption -
-              exceeds ₹2–3 crore a year.
-
-            </p>
-
-            {/* BUTTON */}
-            <div className="mt-6">
-
-              <button className="bg-[#FF5A0A] hover:bg-[#eb4f00] transition-all duration-300 text-white font-bold text-[16px] px-6 py-3 rounded-full tracking-[0.3px]" onClick={() => setShowCalculator(true)}>
-                CHECK HOW MUCH YOU ARE LOSING
-              </button>
-
-              <p className="text-[16px] text-[#8B8B8B] italic mt-3">
-                In 30 seconds.
-              </p>
-
-            </div>
+</div>
           </div>
-        </div>
+      
 
       </Container>
 

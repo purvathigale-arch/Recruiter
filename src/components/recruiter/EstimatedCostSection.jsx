@@ -5,55 +5,40 @@ export default function EstimatedCostSection() {
    
     <section className="bg-[#FFFFFF] py-[45px]">
 
-<<<<<<< HEAD
-      <div className="relative z-10 w-full px-4 md:px-[160px]">
-=======
-      <div className="relative z-10 w-full px-[160px]">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+    <div className="relative z-10 w-full px-4 sm:px-6 lg:px-[160px]">
 
         {/* TITLE — centered across full width, no ml offset */}
-        <h2
-          className="
-            text-center
-<<<<<<< HEAD
-            text-[24px] md:text-[32px]
-            leading-[1.2]
-            ml-0 md:ml-[450px]
-=======
-            text-[32px]
-            leading-none
-            ml-[450px]
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-            tracking-[-1px]
-            font-[700]
-            text-[#000000]
-          "
-          style={{ fontFamily: "Figtree, sans-serif" }}
-        >
-          Estimated Cost to Fill One Role
-        </h2>
+        
+    <h2
+  className="
+    text-center
+    text-[28px]
+    sm:text-[32px]
+    lg:text-[32px]
+    leading-tight
+    tracking-[-1px]
+    font-[700]
+    text-[#000000]
+  "
+  style={{ fontFamily: "Figtree, sans-serif" }}
+>
+  Estimated Cost to Fill One Role
+</h2>
 
         {/* TOP SECTION */}
-<<<<<<< HEAD
-        <div className="mt-[20px] flex flex-col md:flex-row items-start gap-10 md:gap-[70px]">
+       <div className="mt-8 flex flex-col lg:flex-row items-start gap-8 lg:gap-[70px]">
 
           {/* LEFT SIDE — Assumptions */}
-       <div className="w-full md:w-[320px] flex-shrink-0 mt-[-8px] pt-[10px]">
-=======
-        <div className="mt-[20px] flex items-start gap-[70px]">
-
-          {/* LEFT SIDE — Assumptions */}
-       <div className="w-[320px] flex-shrink-0 mt-[-8px] pt-[10px]">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+       <div className="w-full lg:w-[320px] flex-shrink-0 pt-[10px]">
 
             <h3
-              className="text-[32px] italic font-650 text-black leading-none"
+              className="text-[26px] lg:text-[32px] italic font-650 text-black leading-none"
               style={{ fontFamily: "Figtree, sans-serif" }}
             >
               Assumptions:
             </h3>
 
-         <div className="mt-[42px] space-y-[14px]" >
+        <div className="mt-6 lg:mt-[42px] space-y-4">
               {[
                 "1 Open role",
                 "100 Applications/CV screened",
@@ -65,7 +50,10 @@ export default function EstimatedCostSection() {
              <div className="flex items-start gap-5">
                <div className="w-[18px] h-[18px] bg-[#FFFFF] rotate-45 mt-[10px] flex-shrink-0" />
                  <p
-  className="text-[20px] italic leading-[25px] text-[#1D1D1D] py-1"
+  className="text-[16px]
+lg:text-[20px]
+italic
+leading-[24px] text-[#1D1D1D] py-1"
   style={{ fontFamily: "Figtree, sans-serif" }}
   dangerouslySetInnerHTML={{
     __html: item
@@ -83,15 +71,9 @@ export default function EstimatedCostSection() {
           </div>
 
           {/* TABLE — fixed width, pushed to the right */}
-<<<<<<< HEAD
-          <div className="w-full md:w-[700px] ml-auto">
-
-            <div className="border border-[#B8B8B8] bg-white rounded-[6px] overflow-x-auto">
-=======
-          <div className="w-[700px] ml-auto">
+        <div className="w-full lg:w-[700px] ml-auto overflow-x-auto">
 
             <div className="border border-[#B8B8B8] bg-white rounded-[6px] overflow-hidden">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
 
               {/* HEADER */}
               <div className="grid grid-cols-3 bg-[#FF5A0A]">
@@ -101,7 +83,7 @@ export default function EstimatedCostSection() {
                     className="border-r last:border-r-0 border-[#E24E00] py-[8px]"
                   >
                     <p
-                      className="text-center text-white text-[22px] font-black"
+                      className="text-center text-white text-[14px] lg:text-[22px] font-black"
                       style={{ fontFamily: "Figtree, sans-serif" }}
                     >
                       {head}
@@ -130,7 +112,7 @@ export default function EstimatedCostSection() {
                       className="border-r last:border-r-0 border-[#D6D6D6] px-4 py-[9px]"
                     >
                       <p
-                        className={`text-[20px] leading-[21px] text-[#2D2D2D] font-medium ${
+                        className={`text-[13px] lg:text-[20px] leading-[21px] text-[#2D2D2D] font-medium ${
                           i === 0 ? "text-left" : "text-center"
                         }`}
                         style={{ fontFamily: "Figtree, sans-serif" }}
@@ -175,13 +157,17 @@ export default function EstimatedCostSection() {
         </div>
 
         {/* LOWER CONTENT */}
-<<<<<<< HEAD
-        <div className="mt-[24px] flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
-=======
-        <div className="mt-[24px] flex justify-between items-end gap-8">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+        <div className="mt-8 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8">
           <p
-            className="max-w-[620px] text-[20px] leading-[22px] text-[#383838] font-medium leading-[32px]"
+            className="
+max-w-[620px]
+text-[16px]
+lg:text-[20px]
+leading-[26px]
+lg:leading-[32px]
+text-[#383838]
+font-medium
+"
             style={{ fontFamily: "Figtree, sans-serif" }}
           >
             Estimated cost with Zepcruit's full automation stack:
@@ -191,7 +177,7 @@ export default function EstimatedCostSection() {
             {" "}through traditional methods, and 8–12% of salary through recruitment agencies.
           </p>
 
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 w-full lg:w-auto">
             <button
               className="bg-[#FF5A0A] text-white rounded-full px-6 py-[10px] text-[16px] font-bold transition-all hover:scale-[1.03]"
               style={{ fontFamily: "Figtree, sans-serif" }}

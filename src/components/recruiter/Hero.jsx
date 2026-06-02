@@ -2,303 +2,256 @@ import Container from "../common/Container";
 import heroImage from "../../assets/HeroImage.png";
 
 export default function Hero() {
-
   return (
     <section className="pt-10 pb-20 bg-[#FFFFFF]">
       <Container>
-
         {/* Breadcrumb */}
-        <p className="text-[16px] mb-8 font-medium tracking-[0.2px]">
+        <p className="text-[14px] md:text-[16px] mb-8 font-medium tracking-[0.2px] text-center lg:text-left">
           <span className="text-[#FF5A0A]">Services</span>
           <span className="mx-1 text-[#B1B1B1]">/</span>
           <span className="text-black">For Recruiters</span>
         </p>
 
         {/* HERO SECTION */}
-<<<<<<< HEAD
-        <div className="hero-grid grid grid-cols-[1.2fr_0.8fr] items-center gap-2">
-=======
-        <div className="grid grid-cols-[1.2fr_0.8fr] items-center gap-2">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-
+        <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] items-center gap-8 lg:gap-2">
           {/* LEFT SIDE */}
-          <div className="max-w-[920px]">
-
+          <div className="max-w-[1000px] text-center lg:text-left">
             {/* MAIN HEADING */}
-<h1
-  className="
-<<<<<<< HEAD
-    hero-heading
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-    max-w-[820px]
-    text-[#111111]
-    font-[800]
-    tracking-[-2px]
-    leading-[0.8]
-<<<<<<< HEAD
-    text-[64px]
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-  "
-  style={{
-    fontFamily: "Figtree, sans-serif",
-  }}
->
+            <h1
+              className="
+                max-w-[1000px]
+                mx-auto lg:mx-0
+                text-[#111111]
+                font-[800]
+                tracking-[-1px]
+                lg:tracking-[-2px]
+                leading-[0.95]
+                lg:leading-[0.8]
+              "
+              style={{
+                fontFamily: "Figtree, sans-serif",
+              }}
+            >
+              {/* LINE 1 */}
+              <div className="text-[34px] sm:text-[42px] md:text-[52px] lg:text-[64px]">
+                <span className="text-[#FF5A0A]">
+                  AI Recruitment Software
+                </span>
+              </div>
 
-  {/* LINE 1 */}
-  <div className="text-[64px]">
-    <span className="text-[#FF5A0A]">
-      AI Recruitment Software
-    </span>
-  </div>
+              {/* LINE 2 */}
+              <div className="text-[34px] sm:text-[42px] md:text-[52px] lg:text-[64px] mt-2 md:mt-4">
+                That Predicts Who Will
+              </div>
 
-  {/* LINE 2 */}
-  <div className="text-[64px] mt-[16px]">
-    That Predicts Who Will
-  </div>
+              {/* LINE 3 */}
+              <div className="text-[34px] sm:text-[42px] md:text-[52px] lg:text-[64px] mt-2 md:mt-4">
+                <span className="text-[#FF5A0A]">Perform</span>
+                <span className="text-black"> - Not Just Who</span>
+              </div>
 
-{/* LINE 3 */}
-<div className="text-[64px] mt-[16px]">
-  <span className="text-[#FF5A0A]">Perform</span>
-  <span className="text-black"> - Not Just Who</span>
-</div>
-
-{/* LINE 4 */}
-<div className="text-[64px] mt-[15px]">
-  <span className="text-black">Applied</span>
-</div>
-</h1>
+              {/* LINE 4 */}
+              <div className="text-[34px] sm:text-[42px] md:text-[52px] lg:text-[64px] mt-2 md:mt-4">
+                <span className="text-black">Applied</span>
+              </div>
+            </h1>
 
             {/* PARAGRAPH 1 */}
-            <p className="mt-9 text-[18px] leading-[24px] text-[#6E6E6E] max-w-[690px] font-medium">
-              Every year, organisations lose thousands of hiring hours and crores in
-              mis-hire costs. Not entirely from lack of effort but from lack of the
-              right intelligence at the right moment.
+            <p className="mt-6 lg:mt-9 text-[16px] md:text-[18px] leading-[24px] text-[#6E6E6E] max-w-[690px] mx-auto lg:mx-0 font-medium">
+              Every year, organisations lose thousands of hiring hours and
+              crores in mis-hire costs. Not entirely from lack of effort but
+              from lack of the right intelligence at the right moment.
             </p>
 
             {/* PARAGRAPH 2 */}
-            <p className="mt-5 text-[18px] leading-[24px] text-[#6E6E6E] max-w-[700px] font-medium">
+            <p className="mt-5 text-[16px] md:text-[18px] leading-[24px] text-[#6E6E6E] max-w-[700px] mx-auto lg:mx-0 font-medium">
               <span className="font-extrabold text-[#444444]">
                 Zepcruit
               </span>{" "}
               is India’s
               <span className="font-extrabold text-[#444444]">
-                {" "}AI-powered candidate assessment and hiring intelligence platform
-              </span>,
-              built to give Talent Acquisition teams and CHROs the one thing
-              traditional hiring never could: confidence before the offer letter.
+                {" "}
+                AI-powered candidate assessment and hiring intelligence
+                platform
+              </span>
+              , built to give Talent Acquisition teams and CHROs the one thing
+              traditional hiring never could: confidence before the offer
+              letter.
             </p>
-
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="flex justify-end items-center pr-2">
-
+          <div className="flex justify-center lg:justify-end items-center pr-0 lg:pr-2">
             <img
               src={heroImage}
               alt="AI recruitment illustration"
-              className="w-[500px] object-contain"
+              className="w-full max-w-[280px] sm:max-w-[360px] md:max-w-[430px] lg:max-w-[500px] object-contain"
             />
-
           </div>
         </div>
 
         {/* WHAT YOU GET */}
         <div className="mt-8">
-
           {/* TITLE */}
-          <h2 className="text-center text-[36px] font-black text-black mb-8 tracking-[-1px]">
+          <h2 className="text-center text-[28px] md:text-[36px] font-black text-black mb-8 tracking-[-1px]">
             What you get
           </h2>
 
-           {/* CARDS */}
-<<<<<<< HEAD
-<div className="feature-grid grid grid-cols-3 gap-8 max-w-[1200px] mx-auto">
-=======
-<div className="grid grid-cols-3 gap-8 max-w-[1200px] mx-auto">
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
+          {/* CARDS */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-[1200px] mx-auto">
+            {/* CARD 1 */}
+            <div
+              className="
+                bg-[#FF5A0A]
+                rounded-[8px]
+                min-h-[180px]
+                md:h-[204px]
+                px-6 md:px-[34px]
+                py-[26px]
+                flex
+                items-center
+                justify-center
+                shadow-[0_2px_10px_rgba(0,0,0,0.04)]
+                transition-all
+                duration-300
+                hover:scale-[1.04]
+                hover:shadow-[0_12px_30px_rgba(255,90,10,0.25)]
+                cursor-pointer
+              "
+            >
+              <p
+                className="
+                  text-white
+                  text-[18px]
+                  md:text-[20px]
+                  leading-[1.18]
+                  font-[500]
+                  text-center
+                  tracking-[-0.4px]
+                  max-w-[310px]
+                "
+                style={{
+                  fontFamily: "Figtree, sans-serif",
+                }}
+              >
+                AI-powered candidate screening, structured video interviews,
+                and deep psychometric-based role fit assessment in one platform
+              </p>
+            </div>
 
-  {/* CARD 1 */}
-  <div
-    className="
-<<<<<<< HEAD
-    feature-card
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-  bg-[#FF5A0A]
-  rounded-[8px]
-  h-[204px]
-  px-[34px]
-  py-[26px]
-  flex
-  items-center
-  justify-center
-  shadow-[0_2px_10px_rgba(0,0,0,0.04)]
-  transition-all
-  duration-300
-  hover:scale-[1.04]
-  hover:shadow-[0_12px_30px_rgba(255,90,10,0.25)]
-  cursor-pointer
-"
-  >
+            {/* CARD 2 */}
+            <div
+              className="
+                bg-[#FF5A0A]
+                rounded-[8px]
+                min-h-[180px]
+                md:h-[204px]
+                px-6 md:px-[34px]
+                py-[26px]
+                flex
+                items-center
+                justify-center
+                shadow-[0_2px_10px_rgba(0,0,0,0.04)]
+                transition-all
+                duration-300
+                hover:scale-[1.04]
+                hover:shadow-[0_12px_30px_rgba(255,90,10,0.25)]
+                cursor-pointer
+              "
+            >
+              <p
+                className="
+                  text-white
+                  text-[18px]
+                  md:text-[20px]
+                  leading-[1.18]
+                  font-[500]
+                  text-center
+                  tracking-[-0.4px]
+                  max-w-[310px]
+                "
+                style={{
+                  fontFamily: "Figtree, sans-serif",
+                }}
+              >
+                A Predictive Hiring Engine that scores every candidate on role
+                alignment, performance likelihood, and hiring confidence
+              </p>
+            </div>
 
-    <p
-      className="
-<<<<<<< HEAD
-        feature-card-text
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-        text-white
-        text-[20px]
-        leading-[1.18]
-        font-[500]
-        text-center
-        tracking-[-0.4px]
-        max-w-[310px]
-      "
-      style={{
-        fontFamily: "Figtree, sans-serif",
-      }}
-    >
-      AI-powered candidate screening, structured video interviews,
-      and deep psychometric-based role fit assessment in one platform
-    </p>
-
-  </div>
-
-  {/* CARD 2 */}
-  <div
-    className="
-<<<<<<< HEAD
-    feature-card
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-  bg-[#FF5A0A]
-  rounded-[8px]
-  h-[204px]
-  px-[34px]
-  py-[26px]
-  flex
-  items-center
-  justify-center
-  shadow-[0_2px_10px_rgba(0,0,0,0.04)]
-  transition-all
-  duration-300
-  hover:scale-[1.04]
-  hover:shadow-[0_12px_30px_rgba(255,90,10,0.25)]
-  cursor-pointer
-"
-  >
-
-    <p
-      className="
-<<<<<<< HEAD
-        feature-card-text
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-        text-white
-        text-[20px]
-        leading-[1.18]
-        font-[500]
-        text-center
-        tracking-[-0.4px]
-        max-w-[310px]
-      "
-      style={{
-        fontFamily: "Figtree, sans-serif",
-      }}
-    >
-      A Predictive Hiring Engine that scores every candidate on role
-      alignment, performance likelihood, and hiring confidence
-    </p>
-
-  </div>
-
-  {/* CARD 3 */}
-  <div
-    className="
-<<<<<<< HEAD
-      feature-card
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-      bg-[#FF5A0A]
-      rounded-[8px]
-      h-[204px]
-      px-[30px]
-      py-[24px]
-      flex
-      items-center
-      justify-center
-      shadow-[0_2px_10px_rgba(0,0,0,0.04)]
-      transition-all
-      duration-300
-      hover:scale-[1.04]
-      hover:shadow-[0_12px_30px_rgba(255,90,10,0.25)]
-      cursor-pointer
-    "
-  >
-
-    <p
-      className="
-<<<<<<< HEAD
-        feature-card-text
-=======
->>>>>>> 078a62320767f4a6388e8d462a1e1f36fd2756fc
-        text-white
-        text-[20px]
-        leading-[1.18]
-        font-[500]
-        text-center
-        tracking-[-0.4px]
-        max-w-[310px]
-      "
-      style={{
-        fontFamily: "Figtree, sans-serif",
-      }}
-    >
-      Automated AI interview technology that runs simultaneously for
-      5 or 500 candidates with zero extra effort from your team
-    </p>
-
-  </div>
-
-</div>
+            {/* CARD 3 */}
+            <div
+              className="
+                bg-[#FF5A0A]
+                rounded-[8px]
+                min-h-[180px]
+                md:h-[204px]
+                px-6 md:px-[30px]
+                py-[24px]
+                flex
+                items-center
+                justify-center
+                shadow-[0_2px_10px_rgba(0,0,0,0.04)]
+                transition-all
+                duration-300
+                hover:scale-[1.04]
+                hover:shadow-[0_12px_30px_rgba(255,90,10,0.25)]
+                cursor-pointer
+              "
+            >
+              <p
+                className="
+                  text-white
+                  text-[18px]
+                  md:text-[20px]
+                  leading-[1.18]
+                  font-[500]
+                  text-center
+                  tracking-[-0.4px]
+                  max-w-[310px]
+                "
+                style={{
+                  fontFamily: "Figtree, sans-serif",
+                }}
+              >
+                Automated AI interview technology that runs simultaneously for
+                5 or 500 candidates with zero extra effort from your team
+              </p>
+            </div>
+          </div>
 
           {/* CTA */}
           <div className="flex flex-col items-center mt-8">
+            <button
+              className="
+                bg-black
+                text-white
+                px-6 md:px-8
+                py-[10px]
+                rounded-full
+                text-[16px]
+                font-bold
+                tracking-[0.5px]
+                hover:scale-105
+                transition
+                duration-300
+              "
+              onClick={() =>
+                window.open(
+                  "https://zepcruit.zohobookings.in/#/300603000000133050",
+                  "_blank"
+                )
+              }
+            >
+              BOOK A DEMO
+            </button>
 
-           <button
-  className="
-    bg-black
-    text-white
-    px-8
-    py-[10px]
-    rounded-full
-    text-[16px]
-    font-bold
-    tracking-[0.5px]
-    hover:scale-105
-    transition
-    duration-300
-  "
-  onClick={() =>
-    window.open(
-      "https://zepcruit.zohobookings.in/#/300603000000133050",
-      "_blank"
-    )
-  }
->
-  BOOK A DEMO
-</button>
-
-            <p className="mt-3 text-[18px] text-[#7A7A7A] italic font-medium">
-              No commitment. 30 minutes. Walk away with a sample candidate report.
+            <p className="mt-3 text-[14px] md:text-[18px] text-center px-4 text-[#7A7A7A] italic font-medium">
+              No commitment. 30 minutes. Walk away with a sample candidate
+              report.
             </p>
-
           </div>
         </div>
-
       </Container>
     </section>
   );

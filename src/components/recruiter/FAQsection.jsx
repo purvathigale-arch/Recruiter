@@ -87,7 +87,17 @@ export default function FAQSection() {
   ];
 
   return (
-    <section className="w-full bg-[#FFFFFF] py-[40px] overflow-hidden">
+    <section
+  className="
+    w-full
+    bg-[#FFFFFF]
+
+    py-8
+    lg:py-[40px]
+
+    overflow-hidden
+  "
+>
       <div className="max-w-[1180px] mx-auto px-4">
 
         {/* MAIN BOX */}
@@ -97,45 +107,51 @@ export default function FAQSection() {
             relative
             rounded-[4px]
             bg-[#FFFFFF]
-            px-[70px]
-            py-[55px]
+      px-5
+sm:px-8
+lg:px-[70px]
+
+py-8
+lg:py-[55px]
           "
         >
 
           {/* QUESTION SVG */}
 
-          <img
-            src={faqQuestionSvg}
-            alt=""
-            className="
-              absolute
-              right-[-60px]
-              top-[160px]
-              w-[339px]
-              h-[424px]
-              object-contain
-              pointer-events-none
-              select-none
-            "
-          />
+   <img
+  src={faqQuestionSvg}
+  alt=""
+  className="
+    hidden lg:block
+    absolute
+    right-[-60px]
+    top-[160px]
+    w-[339px]
+    h-[424px]
+    object-contain
+    pointer-events-none
+    select-none
+  "
+/>
 
           {/* PEOPLE SVG */}
 
           {showAll && (
-            <img
+     <img
   src={faqPeopleSvg}
   alt=""
   className={`
+    hidden lg:block
     absolute
     right-[-60px]
     bottom-[100px]
     w-[350px]
+    h-[225px]
     object-contain
     pointer-events-none
     select-none
     transition-opacity
     duration-300
-    h-[225px]
     ${
       showAll
         ? "opacity-100"
@@ -147,13 +163,15 @@ export default function FAQSection() {
 
           {/* CONTENT */}
 
-          <div className="relative z-10 w-[72%]">
+        <div className="relative z-10 w-full lg:w-[72%]">
 
             {/* TITLE */}
 
             <h2
               className="
-                text-[40px]
+              text-[30px]
+sm:text-[34px]
+lg:text-[40px]
                 font-black
                 text-[#FF580E]
                 leading-none
@@ -202,8 +220,11 @@ export default function FAQSection() {
                           flex
                           items-start
                           justify-between
-                          gap-5
-                          py-[18px]
+                          gap-3
+lg:gap-5
+
+py-4
+lg:py-[18px]
                           text-left
                         "
                       >
@@ -238,10 +259,15 @@ export default function FAQSection() {
 
                           <h3
                             className="
-                              text-[18px]
+                              
                               font-semibold
                               text-[#161616]
-                              leading-[24px]
+                             text-[15px]
+sm:text-[16px]
+lg:text-[18px]
+
+leading-[22px]
+lg:leading-[24px]
                             "
                             style={{
                               fontFamily: "Figtree, sans-serif",
@@ -284,10 +310,17 @@ export default function FAQSection() {
 
                           <p
                             className="
-                              pl-[38px]
-                              pr-8
-                              text-[14px]
-                              leading-[24px]
+                            pl-[30px]
+lg:pl-[38px]
+
+pr-0
+lg:pr-8
+
+text-[13px]
+sm:text-[14px]
+
+leading-[22px]
+lg:leading-[24px]
                               text-[#666]
                               font-medium
                             "
@@ -326,7 +359,8 @@ export default function FAQSection() {
                 items-center
                 justify-center
                 gap-2
-                text-[16px]
+            text-[14px]
+lg:text-[16px]
                 font-bold
                 text-[#111]
                 transition-all
